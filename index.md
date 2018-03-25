@@ -1,6 +1,22 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
+paginate: true
+alt_title: "@robdmoore"
+sub_title: "Blog about software engineering, web development, agile/lean/Continuous Delivery, C#, ASP.NET and Microsoft Azure."
+image: /assets/images/banner.jpg
+introduction: |
+  Robert is a Principal Consultant and Technical Specialist (Microsoft Azure) for [Readify](https://readify.net/). He is an Open Source Software contributor via his [personal GitHub](https://github.com/robdmoore) as well as [TestStack](https://github.com/TestStack) and [MRCollective](https://github.com/MRCollective).
+
+  He lives in Perth, Australia and has a BEng (Hons 1) (CompSysEng) and BSc (CompSc). You can find him on [Twitter](https://twitter.com/robdmoore) and [GitHub](https://github.com/robdmoore) as @robdmoore.
+
+  Robert is interested in agile methodologies, lean, continuous delivery, software engineering, web development, aircraft and floorball.
+
+  All source code on this blog and my [Gists](https://gist.github.com/robdmoore/e45154b60207959cf423) are [Public Domain](https://wiki.creativecommons.org/wiki/Public_domain) unless otherwise stated.
+actions:
+  - label: "GitHub"
+    icon: github
+    url: "https://github.com/robdmoore"
+  - label: "Twitter"
+    icon: twitter
+    url: "https://twitter.com/twitter"
 ---

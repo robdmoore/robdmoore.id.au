@@ -1,0 +1,215 @@
+---
+id: 561
+title: Automated Testing of ASP.NET Web API and MVC applications
+date: 2013-02-02T16:56:41+00:00
+author: rob
+layout: post
+guid: http://robdmoore.id.au/?p=561
+permalink: /blog/2013/02/02/automated-testing-of-asp-net-web-api-and-mvc-applications/
+categories:
+  - Technical
+tags:
+  - ASP.NET MVC
+  - ASP.NET Web API
+  - 'C#'
+  - NSubstitute
+  - testing
+---
+Yesterday I started working on my first professional usage of ASP.NET Web API and as part of that created a handy base class to perform full-stack unit and/or integration testing of controller actions in-process. It was based on some stuff I found online, but put my own flair on so I thought I would share it here in case anyone else found it useful. While I&#8217;m at it I thought I&#8217;d briefly outline my testing strategy for most MVC applications I write.
+
+## ASP.NET MVC Testing
+
+When I&#8217;m testing an ASP.NET MVC application I have had good mileage with covering the following (this is a combination of what you might consider to be integration and unit tests):
+
+  * <span style="line-height: 14px;"><strong>Routes</strong>: Typically you aren&#8217;t going to change the URLs in your application (because then you would be dealing with potential search engine optimisation and bookmarking issues) so if they do change it&#8217;s a good indication that (in an MVC application) you&#8217;ve added a new route definition that has broken some existing definitions. I will typically test the URLs for all controller actions (including mapping route values to action input parameters) and test that calling Url.Route with the same parameters results in the same route being generated. This kind of testing has saved my bacon many times in the past and it is quick and effective to write the tests whenever adding a new controller action using the code I use (a version of <a href="http://mvccontrib.codeplex.com/wikipage?title=TestHelper#Routes" target="_blank">MVCContrib.TestHelper</a> that I modified to use <a href="http://nsubstitute.github.com/" target="_blank">NSubstitute</a>). It&#8217;s particularly handy when you have <a href="http://msdn.microsoft.com/en-au/library/ee671793(v=vs.100).aspx" target="_blank">areas</a> in your application because they have a nasty tendency of breaking your routes.</span>
+  * **Controllers**: If any particular controller action is more than a few lines of code (and thus it isn&#8217;tÂ bleedinglyÂ obviously that it&#8217;s either correct or not correct just by looking at it), then like all complex business logic I try and unit test the controllers. I do this using the <a href="http://teststack.github.com/pages/fluentmvctesting.html" target="_blank">Fluent MVC Testing library that I created</a> because it&#8217;s terse and easy to write these tests.
+  * **Controller Instantiation**: <a href="http://robdmoore.id.au/blog/2012/05/29/controller-instantiation-testing/" target="_blank">As previously blogged</a>.
+  * **Filters, Filter Providers and Model Binders**: I will typically unit test these, for an example see my previous post about <a href="http://robdmoore.id.au/blog/2012/04/27/testing-code-that-uses-autofac-dependencyresolver-in-asp-net-mvc/" target="_blank">unit testing filter providers</a>.
+  * **UI Testing**: If the circumstances of the project allow for it then well-placed full-stack tests provide a lot of extra confidence. My fellow <a href="http://teststack.github.com/" target="_blank">TestStacker</a> <a href="http://www.mehdi-khalili.com/" target="_blank">Mehdi Khalili</a> has a <a href="http://www.mehdi-khalili.com/presentations/auit-qmsdnug" target="_blank">brilliant slide deck on this</a>.
+  * **Database Layer**: I perform tests against individual queries / commands / repository methods by doing a full integration test against a real database and wrapping the whole thing in a Transaction Scope so I can roll-back any changes in the test teardown. This ensures the test database always remains clean (read: empty) and each test can work in isolation.
+  * **Database migrations**: I like to include one test that brings the test database to version 0 and then back up to the latest version so that if you ever need to use your down migrations then you have confidence they work (as well as continuing confidence that all of your up migrations work).
+  * **Business logic / services / domain logic**: I will always unit test this
+  * **Infrastructure code**: Where practical I try and unit test this. Sometimes this code is tested as a result of other tests e.g. the database tests and controller instantiation tests
+
+If there are any particular types of testing that you would like me to do a more detailed blog post feel free to add a comment below.
+
+## ASP.NET Web API
+
+The tests above have a nice mixture of unit and integrations tests and I find that they combine to provide a good level of confidence and coverage as the codebase evolves. I have only really <a href="http://robdmoore.id.au/blog/2012/09/01/webapi-hal/" target="_blank">played around with Web API in my spare time</a> so far so the following recommendations are likely to evolve over time, but this is my current gut feel about this kind of testing.
+
+Firstly, there are a few good posts I came across that give a broad idea of the different ways in which you can test Web API:
+
+  * <a href="http://www.peterprovost.org/blog/2012/06/16/unit-testing-asp-dot-net-web-api" target="_blank">Unit Test ASP.NET Web API</a>
+  * <a href="http://www.strathweb.com/2012/08/testing-routes-in-asp-net-web-api/" target="_blank">Testing routes in ASP.NET Web API</a>
+  * <a href="http://cromwellhaus.com/2012/02/asp-net-web-api-integration-tests-with-self-hosting/" target="_blank">ASP.Net Web Api Integration Tests With Self Hosting</a>
+
+And then my initial approach / thoughts:
+
+  * <span style="line-height: 14px;"><strong>Routes</strong>:The other day I stumbled across a library someone had created to do <a href="https://github.com/AnthonySteele/MvcRouteTester" target="_blank">route testing for ASP.NET Web API</a> and while I&#8217;m not a fan of the syntax they created (vs MVCContrib.TestHelper style syntax) it&#8217;s a good start in this direction. For the moment I&#8217;m thinking (as you will see) that I can take care of route testing implicitly. Furthermore, at least for my current project, the number of routes I&#8217;m dealing with doesn&#8217;t necessitate route testing. If the routes that you deal with are complex enough and or large enough in number then unit testing routes will likely provide a lot of value.<br /> <strong>Controllers</strong>:Â There is less need for a library like Fluent MVC Testing with Web API since most of your controllers will simply return the data that they queried directly and rely on formatters to give the correct response. This makes unit testing the controllers really simple. As for route testing the initial approach I&#8217;ve settled on will cover this testing anyway.<br /> </span>
+  * **Controller Instantiation**: For the same reason this is valuable for ASP.NET MVC projects I think this is valuable (and just as easy to test). In my current project I haven&#8217;t bothered creating this yet since I&#8217;m only dealing with one controller with a couple of dependencies so I don&#8217;t have any code for this.
+  * **Filters, etc.**: I think there is value in unit testing these things in the same way as there is for MVC applications. In this instance the approach I&#8217;ve settled on tests these as well because it&#8217;s a full stack test. This is fine for simple filters / formatters etc., but if you have complex ones then I highly recommend unit testing them as well.
+  * **UI Testing**: This one is interesting, because at first thought there is no UI to test so this isn&#8217;t applicable. However, the way I see it, the equivalent in API tests are testing from the viewpoint of the client/consumer e.g. if I make a get request to this URL then I expect that object in JSON format. If you are producing an API according to a specification then this is the viewpoint the specification is written in and depending on how you do things, the acceptance criteria for the work you are doing will also be in terms of this. For these reasons, I think in some ways, while it is integration testing, testing the full stack from the viewpoint of a client provides a lot of bang for buck. As I will explain further below, this is the approach I have decided to initially take. I should note that the traditional pain points of UI testing for MVC applications (cross-browser differences, really slow, out of process so you can&#8217;t easily mock things, etc.) can easily be mitigated when doing this testing, which is why I find it a suitable approach in lieu of some of the other testing I might normally do.
+  * **Database / business logic / infrastructure**: None of this changes.
+
+## The approach I&#8217;ve taken for Web API testing
+
+This is heavily based on theÂ <a href="http://cromwellhaus.com/2012/02/asp-net-web-api-integration-tests-with-self-hosting/" target="_blank">ASP.Net Web Api Integration Tests With Self Hosting</a>Â post I linked to above. The problems I had with the code shown in that post was:
+
+  * <span style="line-height: 14px;">The route was defined in the test rather than re-using the routes you define in your application</span>
+  * The test itself is defined within a lamdba
+  * There was no abstraction of the code to set up the server
+  * The base URL was specified multiple times
+  * The test was really verbose (apart from not abstracting out the server it had a stream reader and WebRequest.Create etc.)
+
+In the end I created a base class (using NUnit, but the same applies to any unit testing framework) that abstracted away the creation of the server as well as the HTTP call. This resulted in tests that were dead simple and very terse (for the moment there is only a get request, but you can easily add other methods and headers etc.). I also exposed the dependency injection so that I could insert mocks to control whether I want to unit test the controller action or integration test it with real dependencies. In this case it uses Autofac, but again the same applies for any DI framework.
+
+Another thing to note is that I&#8217;ve baked in support for detecting if <a href="http://www.fiddler2.com/fiddler2/" target="_blank">Fiddler</a> is currently running and proxying requests through Fiddler in that instance. That way you can seemlessly move your test between your local computer (with or without Fiddler running) and your CI server without changing any code. The fact it proxies through Fiddler makes it really easy to debug exactly what is going on too.
+
+Two other things to note are that you need to change PingController to a controller (or any class really) in the assembly that contains your API controllers and that this assumes you have created a static method inside the RouteConfig class called RegisterApiRoutes that defines the routes for your API.
+
+<pre class="brush: csharp; title: ; notranslate" title="">using System;
+using System.Net.Http;
+using System.Web.Http.SelfHost;
+using Autofac;
+using Autofac.Integration.WebApi;
+using NUnit.Framework;
+using WebApiTesting.App_Start;
+using WebApiTesting.Controllers;
+
+namespace WebApiTesting.Tests.TestHelpers
+{
+    class WebApiTestBase
+    {
+        private HttpSelfHostServer _webServer;
+        protected IContainer Container { get; private set; }
+        protected ContainerBuilder ContainerBuilder { get; set; }
+        protected Uri BaseUri { get; private set; }
+
+        private bool _fiddlerActive = true;
+
+        [TestFixtureSetUp]
+        public void TestFixtureSetup()
+        {
+            var client = new HttpClient();
+            try
+            {
+                client.GetAsync("http://ipv4.fiddler/").Wait();
+            }
+            catch (Exception)
+            {
+                _fiddlerActive = false;
+            }
+        }
+
+        [SetUp]
+        public virtual void Setup()
+        {
+            BaseUri = new Uri("http://localhost:3000");
+            var config = new HttpSelfHostConfiguration(BaseUri);
+
+            ContainerBuilder = ContainerBuilder ?? new ContainerBuilder();
+            ContainerBuilder.RegisterApiControllers(typeof(PingController).Assembly);
+            Container = ContainerBuilder.Build();
+
+            RouteConfig.RegisterApiRoutes(config);
+            config.DependencyResolver = new AutofacWebApiDependencyResolver(Container);
+
+            _webServer = new HttpSelfHostServer(config);
+            _webServer.OpenAsync().Wait();
+        }
+
+        protected HttpResponse PerformGetTo(string url)
+        {
+            var client = new HttpClient();
+            var response = client.GetAsync((_fiddlerActive ? "http://ipv4.fiddler:3000/" : BaseUri.ToString()) + url).Result;
+            var content = response.Content.ReadAsStringAsync().Result;
+
+            return new HttpResponse { Content = content, Response = response };
+        }
+
+        [TearDown]
+        public void Teardown()
+        {
+            _webServer.CloseAsync().Wait();
+            _webServer.Dispose();
+            Container.Dispose();
+            ContainerBuilder = null;
+            Container = null;
+        }
+    }
+
+    class HttpResponse
+    {
+        public string Content { get; set; }
+        public HttpResponseMessage Response { get; set; }
+    }
+}
+</pre>
+
+So, how exactly do you use this class? Great question, but first a bit of context. My example will be for a endpoint at /api/ping that takes a GET request and returns the UTC system time in ISO format within an object with a property &#8220;Timestamp&#8221; along with a 200 OK if the database is up and running or a blank response with a 500 error if the database is not up and running.
+
+Here is my test class:
+
+<pre class="brush: csharp; title: ; notranslate" title="">using System;
+using System.Net;
+using Autofac;
+using NSubstitute;
+using NUnit.Framework;
+using WebApiTesting.Infrastructure;
+using WebApiTesting.Tests.TestHelpers;
+
+namespace WebApiTesting.Tests.Controllers
+{
+    internal class PingControllerTests : WebApiTestBase
+    {
+        private IDateTimeProvider _dateTimeProvider;
+        private IPingRepository _pingRepository;
+
+        [SetUp]
+        public override void Setup()
+        {
+            ContainerBuilder = new ContainerBuilder();
+            _dateTimeProvider = Substitute.For&lt;IDateTimeProvider&gt;();
+            _pingRepository = Substitute.For&lt;IPingRepository&gt;();
+            ContainerBuilder.Register(c =&gt; _dateTimeProvider);
+            ContainerBuilder.Register(c =&gt; _pingRepository);
+            base.Setup();
+        }
+
+        [Test]
+        public void GivenTheDatabaseIsUpAndRunning_WhenGetToPing_ReturnCurrentTimestampAnd200Ok()
+        {
+            _dateTimeProvider.Now().Returns(new DateTimeOffset(new DateTime(2012, 11, 4, 12, 20, 6), TimeSpan.Zero));
+
+            var response = PerformGetTo("api/ping");
+
+            Assert.That(response.Response.StatusCode, Is.EqualTo(HttpStatusCode.OK));
+            Assert.That(response.Content, Is.EqualTo(@"{""Timestamp"":""2012-11-04 12:20:06""}"));
+        }
+
+        [Test]
+        public void GivenTheDatabaseIsNotRunning_WhenGetToPing_Return500ErrorWithNoContent()
+        {
+            _pingRepository.When(r =&gt; r.CheckDatabase()).Do(a =&gt; { throw new Exception(); });
+
+            var response = PerformGetTo("api/ping");
+
+            Assert.That(response.Response.StatusCode, Is.EqualTo(HttpStatusCode.InternalServerError));
+            Assert.That(response.Content, Is.EqualTo(string.Empty));
+        }
+    }
+}
+</pre>
+
+There are a few things to note:
+
+  * To register the listener to the port you need to run Visual Studio (and your CI test runner) as admin otherwise you will get a could not register port error.
+  * I used port 3000, but if you are running as admin and get an error saying that port can&#8217;t be registered it then you might have something else on that port so feel free to change.
+  * <span style="line-height: 14px;">Unfortunately I couldn&#8217;t make use of <a href="https://github.com/robdmoore/AutofacContrib.NSubstitute" target="_blank">AutoSubstitute</a>, but unfortunately that broke the HTTP server (I imagine because it was giving mocks for things that the server needed real stuff for). The downside of this is that I have to keep track of the dependencies of the controller within the test making the test more verbose.</span>
+  * Because I need the container builder before starting up the web server I have to create the container builder in the setup method and register everything that I need to mock for any of the tests there, rather than setting up what needs to be mocked in each individual test.
+  * I am setting up and shutting down the web server for each test to isolate them, but if there are a lot of tests this might be too slow and attaching start up to fixture setup or even test assembly set up might be a better option.
+  * As mentioned above for now there is only a Perform**Get**To method, but it would be easy to support the other things needed.
+
+I&#8217;ve uploaded the example source code to Github. Feel free to fork it and play around. If you have any suggestions or improvements feel free to add a comment ðŸ™‚
+
+Enjoy!
