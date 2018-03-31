@@ -40,3 +40,14 @@ main {
         padding: 1rem;
     }
 }
+
+@media (max-width: $medium) {
+    .right-content {
+        display: none;
+    }
+}
+
+.post-tags {
+    font-size: 0.9em;
+    text-align: right;
+}
