@@ -26,3 +26,17 @@ code.highlighter-rouge {
     padding: 1px;
     font-size: 0.9em;
 }
+
+main {
+    position: relative;
+}
+
+@media (min-width: $xlarge) {
+    .right-content {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-left: $large;
+        padding: 1rem;
+    }
+}

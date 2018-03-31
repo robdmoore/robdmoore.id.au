@@ -1,0 +1,22 @@
+---
+layout: page
+permalink: /tags/
+title: Tags
+---
+
+{% include tag-cloud.html %}
+
+<div id="archives">
+{% assign sorted_tags = site.tags | sort %}
+{% for tag in sorted_tags %}
+  <div class="archive-group">
+    {% capture tag_name %}{{ tag | first }}{% endcapture %}
+    <h2 id="#{{ tag_name | slugize }}"><a name="{{ tag_name | slugize }}"></a> {{ tag_name }}</h2>
+    <ul>
+    {% for post in site.tags[tag_name] %}
+      <li><a href="{{ root_url }}{{ post.url }}" rel="bookmark">{{post.title}}</a> <span class="icon">{% include icon-calendar.svg %}</span> <time class="entry-time" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time></li>
+    {% endfor %}
+    </ul>
+  </div>
+{% endfor %}
+</div>
