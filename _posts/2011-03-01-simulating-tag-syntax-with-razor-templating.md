@@ -120,47 +120,47 @@ namespace MvcApplication1.Helpers
 {  
     public class HtmlList<TModel> : IDisposable  
     {  
-	    private readonly HtmlHelper<TModel> \_helper;
+        private readonly HtmlHelper<TModel> _helper;
 
         public HtmlList(HtmlHelper<TModel> helper, object htmlAttributes = null)  
-    	{  
-    		_helper = helper;  
-    		var attrs = new StringBuilder();
+        {  
+            _helper = helper;  
+            var attrs = new StringBuilder();
     
             if (htmlAttributes != null)  
-    		{  
-    			foreach (PropertyDescriptor property in TypeDescriptor.GetProperties(htmlAttributes))  
-    			{  
-    				attrs.Append(string.Format(" {0}="{1}"", property.Name, property.GetValue(htmlAttributes)));  
-    			}  
-    		}
+            {  
+                foreach (PropertyDescriptor property in TypeDescriptor.GetProperties(htmlAttributes))  
+                {  
+                    attrs.Append(string.Format(" {0}="{1}"", property.Name, property.GetValue(htmlAttributes)));  
+                }  
+            }
     
             _helper.ViewContext.Writer.Write(string.Format("<ul{0}>rn", attrs));  
-    	}
+        }
     
     
     
         public IHtmlString Item(string item)  
-    	{  
-    		return new HtmlString(string.Format("t<li>{0}</li>rn", item));  
-    	}
+        {  
+            return new HtmlString(string.Format("t<li>{0}</li>rn", item));  
+        }
     
     
     
         public void Dispose()  
-    	{  
-    		_helper.ViewContext.Writer.Write("</ul>rn");  
-    	}  
+        {  
+            _helper.ViewContext.Writer.Write("</ul>rn");  
+        }  
     }
     
     public static class HtmlHelperExtensions  
     {  
-    	public static HtmlList<TModel> BeginList<TModel>(this HtmlHelper<TModel> helper, object htmlAttributes = null)  
-    	{  
-    		return new HtmlList<TModel>(helper, htmlAttributes);  
-    	}  
+        public static HtmlList<TModel> BeginList<TModel>(this HtmlHelper<TModel> helper, object htmlAttributes = null)  
+        {  
+            return new HtmlList<TModel>(helper, htmlAttributes);  
+        }  
     }  
-}  
+}
 ```
 
 
@@ -186,11 +186,11 @@ One of the magic things about the Html object inside MVC views is it already kno
 
 You can do the same things if you pass the <TModel> through everywhere like I had above. An example of a method implementation that you might have that does something similar to FieldFor is:  
 ````csharp  
-	public IHtmlString ItemFor<TProperty>(Expression<Func<TModel, TProperty>> expression)  
-	{  
-		var metadata = ModelMetadata.FromLambdaExpression(expression, \_helper.ViewData);  
-		return new HtmlString(string.Format("t<li><strong>{0}:</strong> {1}</li>rn", metadata.PropertyName, expression.Compile()((TModel)\_helper.ViewContext.ViewData.Model)));  
-	}  
+    public IHtmlString ItemFor<TProperty>(Expression<Func<TModel, TProperty>> expression)  
+    {  
+        var metadata = ModelMetadata.FromLambdaExpression(expression, _helper.ViewData);  
+        return new HtmlString(string.Format("t<li><strong>{0}:</strong> {1}</li>rn", metadata.PropertyName, expression.Compile()((TModel)_helper.ViewContext.ViewData.Model)));  
+    }  
 ```
 
 This is pretty powerful stuff and means you can write really terse views that have implicit knowledge about the model it is encapsulating and provide great intellisense along the way making the views a lot easier to write.
