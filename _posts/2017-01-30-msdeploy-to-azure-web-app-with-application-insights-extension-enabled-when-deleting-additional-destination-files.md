@@ -16,7 +16,7 @@ author: rob
 
 When performing an MsDeploy to an Azure Web App and you have the App Insights extension enabled you may find something interesting happens if you use the option to delete additional files on the destination that don't appear in the source. If you look at the deployment log you may see something like this:
 
-
+<!--more-->
 
 ```
 2017-01-30T07:29:27.5515545Z Info: Deleting file ({sitename}\ApplicationInsights.config).

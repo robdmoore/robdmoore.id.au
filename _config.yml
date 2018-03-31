@@ -12,6 +12,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: robdmoore
 github_username:  robdmoore
 permalink: /blog/:year/:month/:day/:title
+paginate: 5  # amount of posts to show per page
+paginate_path: /blog/p:num/
+logo: /assets/images/me.jpeg
+search: true
+search_full_content: false
+search_provider: lunr
+disqus:
+  shortname: robdmoore-id-au
+google_analytics: UA-202420-2
 
 # Build settings
 excerpt_separator: "<!--more-->"
@@ -19,3 +28,15 @@ markdown: kramdown
 theme: jekyll-theme-basically-basic
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      read_time: true

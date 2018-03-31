@@ -25,6 +25,8 @@ Nonetheless, there is some really cool stuff in ChameleonForms 2.0 and I'm parti
 
 There have been a range of point releases that added a bunch of functionality to ChameleonForms since the 1.0 release and before this 2.0 release. You can [peruse the releases list](https://github.com/MRCollective/ChameleonForms/releases) to see the features.
 
+<!--more-->
+
 
 ## New docs site
 

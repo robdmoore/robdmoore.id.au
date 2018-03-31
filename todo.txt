@@ -1,6 +1,3 @@
-https:// for links within blog (or make relative)
-Fix category in url
-favicon
 tag cloud
 read time
 latest posts / comments
@@ -19,3 +16,4 @@ weird characters
 broken whitepaper links
 jekyll plugin to check external links?
 styling for <code/>
+check old links and convert to https://
