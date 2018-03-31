@@ -13,7 +13,7 @@ author: rob
 ---
 
 
-A whitepaper I wrote for my employer, [Readify](http://readify.net), just got [published](http://readify.net/insights/whitepapers/managing-database-schemas-in-a-continuous-delivery-world/). Feel free to check it out. I've included the abstract below.
+A whitepaper I wrote for my employer, [Readify](http://readify.net), just got [published](/assets/docs/managing-database-schemas-in-a-continuous-delivery-world.pdf). Feel free to check it out. I've included the abstract below.
 
 
 

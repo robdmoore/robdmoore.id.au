@@ -87,7 +87,7 @@ Azure Web Roles has the following advantages:
 
 
 
-Sometimes Virtual Machines are a valid choice - check out my [whitepaper on deploying web applications in Azure](http://readify.net/insights/whitepapers/developing-and-deploying-web-applications-in-windows-azure/) for more information.
+Sometimes Virtual Machines are a valid choice - check out my [whitepaper on deploying web applications in Azure](/assets/docs/developing_and_deploying_web_applications_in_windows_azure.pdf) for more information.
 
 
 ### Conclusion
