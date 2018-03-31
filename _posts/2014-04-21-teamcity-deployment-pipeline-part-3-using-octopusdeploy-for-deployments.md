@@ -23,11 +23,11 @@ This post outlines how using OctopusDeploy for deployments can fit into a TeamCi
 This post is part of a blog series jointly written by myself and [Matt Davies](http://blog.mdavies.net/) called Maintainable, large-scale continuous delivery with TeamCity:
 
 
-1. [Intro](http://robdmoore.id.au/blog/2012/08/12/maintainable-large-scale-continuous-delivery-with-teamcity/)
+1. [Intro](/blog/2012/08/12/maintainable-large-scale-continuous-delivery-with-teamcity/)
 2. TeamCity deployment pipeline
-  - [TeamCity deployment pipeline (part 1: structure)](http://robdmoore.id.au/blog/2012/09/01/maintainable-teamcity-continuous-deployment-pipeline-configuration/)
+  - [TeamCity deployment pipeline (part 1: structure)](/blog/2012/09/01/maintainable-teamcity-continuous-deployment-pipeline-configuration/)
   - [TeamCity deployment pipeline (part 2: TeamCity 8, build once and UI tests)](http://blog.mdavies.net/2014/04/21/teamcity-deployment-pipeline-part-2-teamcity-8-build-once-and-ui-tests/)
-  - [TeamCity deployment pipeline (part 3: using OctopusDeploy for deployments)](http://robdmoore.id.au/blog/2014/04/21/teamcity-deployment-pipeline-part-3-using-octopusdeploy-for-deployments/)
+  - [TeamCity deployment pipeline (part 3: using OctopusDeploy for deployments)](/blog/2014/04/21/teamcity-deployment-pipeline-part-3-using-octopusdeploy-for-deployments/)
 3. Deploying Web Applications
   - MsDeploy (onprem and Azure Web Sites)
   - OctopusDeploy (nuget)

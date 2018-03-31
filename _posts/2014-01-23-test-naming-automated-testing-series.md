@@ -16,11 +16,11 @@ author: rob
 For the last 6 months I've been thinking and reading **a lot** about how best to write automated tests for applications - including data generation, structure, naming, etc. This blog series is a foray into my current thinking (which will probably change over time; for instance I'm looking back at tests I wrote 6 months ago that I thought were awesome and now thinking that I hate them :P). I'm inviting you to join me on this journey by publishing this series and I encourage thoughtful comments to provoke further thinking and discussion.
 
 
-- [Test Naming](http://robdmoore.id.au/blog/2014/01/23/test-naming-automated-testing-series/)
-- [General Test Structure](http://robdmoore.id.au/blog/2014/01/27/general-test-structure-automated-testing-series/)
-- [Acceptance Tests Structure](http://robdmoore.id.au/blog/2014/01/27/acceptance-tests-structure-automated-testing-series/)
-- [Making Intent Clear](http://robdmoore.id.au/blog/2014/02/23/making-intent-clear-derived-values-automated-testing-series/)
-  - [Derived Values](http://robdmoore.id.au/blog/2014/02/23/making-intent-clear-derived-values-automated-testing-series/)
+- [Test Naming](/blog/2014/01/23/test-naming-automated-testing-series/)
+- [General Test Structure](/blog/2014/01/27/general-test-structure-automated-testing-series/)
+- [Acceptance Tests Structure](/blog/2014/01/27/acceptance-tests-structure-automated-testing-series/)
+- [Making Intent Clear](/blog/2014/02/23/making-intent-clear-derived-values-automated-testing-series/)
+  - [Derived Values](/blog/2014/02/23/making-intent-clear-derived-values-automated-testing-series/)
   - Anonymous Variables
   - Equivalence Classes and Constrained Non-Determinism
 - Unit Testing
@@ -42,7 +42,7 @@ More recently I've started naming my tests with a Given, When, Then description 
 
 
 - Generally the Given will map directly to the Arrange, The When will map directly to the Act and the Then will map directly to the Assert - this provides a way of quickly cross checking that a test does what the name suggests it should by comparing the name to the implementation
-  - I find this really useful when [reviewing pull requests](http://robdmoore.id.au/blog/2013/12/01/using-pull-requests-for-commercialprivateproprietary-development/) to quickly understand that the author of a test didn't make a mistake and structured their test correctly
+  - I find this really useful when [reviewing pull requests](/blog/2013/12/01/using-pull-requests-for-commercialprivateproprietary-development/) to quickly understand that the author of a test didn't make a mistake and structured their test correctly
   - e.g. it's probably wrong if there is a Given in the name, but no clear Arrange section
 - It requires that you put more thought into the test name, which forces you to start by thinking about **what** scenario you are trying to test rather than "phoning in" an *arbitrary* test name and diving into the implementation and focussing on **how** you are testing it
   - My gut feel along with anecdotal evidence from the last few projects I've worked on - with developers of varying skill levels - suggests this leads to better written, more understandable tests

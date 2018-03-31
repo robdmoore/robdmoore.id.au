@@ -20,7 +20,7 @@ I've been a ardent supporter of [continuous delivery](http://continuousdelivery.
 
 
 
-I personally think that embracing continuous delivery is an important intermediate step on the journey towards [moving from technical agility to strategic agility](http://robdmoore.id.au/blog/2013/11/30/presentation-moving-from-technical-agility-to-strategic-agility/ "Presentation: Moving from Technical Agility to Strategic Agility").
+I personally think that embracing continuous delivery is an important intermediate step on the journey towards [moving from technical agility to strategic agility](/blog/2013/11/30/presentation-moving-from-technical-agility-to-strategic-agility/ "Presentation: Moving from Technical Agility to Strategic Agility").
 
 
 
@@ -31,11 +31,11 @@ This post was first written in August 2012, but has since been largely rewritten
 This post forms the introduction to a blog series that is jointly written by myself and [Matt Davies](http://blog.mdavies.net/).
 
 
-1. [Intro](http://robdmoore.id.au/blog/2012/08/12/maintainable-large-scale-continuous-delivery-with-teamcity/)
+1. [Intro](/blog/2012/08/12/maintainable-large-scale-continuous-delivery-with-teamcity/)
 2. TeamCity deployment pipeline
-  - [TeamCity deployment pipeline (part 1: structure)](http://robdmoore.id.au/blog/2012/09/01/maintainable-teamcity-continuous-deployment-pipeline-configuration/)
+  - [TeamCity deployment pipeline (part 1: structure)](/blog/2012/09/01/maintainable-teamcity-continuous-deployment-pipeline-configuration/)
   - [TeamCity deployment pipeline (part 2: TeamCity 8, build once and UI tests)](http://blog.mdavies.net/2014/04/21/teamcity-deployment-pipeline-part-2-teamcity-8-build-once-and-ui-tests/)
-  - [TeamCity deployment pipeline (part 3: using OctopusDeploy for deployments)](http://robdmoore.id.au/blog/2014/04/21/teamcity-deployment-pipeline-part-3-using-octopusdeploy-for-deployments/)
+  - [TeamCity deployment pipeline (part 3: using OctopusDeploy for deployments)](/blog/2014/04/21/teamcity-deployment-pipeline-part-3-using-octopusdeploy-for-deployments/)
 3. Deploying Web Applications
   - MsDeploy (onprem and Azure Web Sites)
   - OctopusDeploy (nuget)

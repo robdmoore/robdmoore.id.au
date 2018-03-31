@@ -19,13 +19,13 @@ This post describes how to create a SharePoint-style user lookup control backed 
 ## Practical Microsoft Azure Active Directory Blog Series
 
 
-This post is part of the [Practical Microsoft Azure Active Directory Blog Series](http://robdmoore.id.au/blog/2014/06/29/practical-microsoft-azure-active-directory-blog-series/ "Practical Microsoft Azure Active Directory Blog Series").
+This post is part of the [Practical Microsoft Azure Active Directory Blog Series](/blog/2014/06/29/practical-microsoft-azure-active-directory-blog-series/ "Practical Microsoft Azure Active Directory Blog Series").
 
 
-- [Authenticating an ASP.NET MVC 5 application with Microsoft Azure Active Directory](http://robdmoore.id.au/blog/2014/06/29/authenticating-an-asp-net-mvc-5-application-with-microsoft-azure-active-directory/)
-- [Explaining the code behind authenticating MVC5 app with Azure AD](http://robdmoore.id.au/blog/2014/10/24/explaining-the-code-behind-authenticating-mvc5-app-with-azure-ad/)
-- [Add role-based authorisation based on Azure AD group membership](http://robdmoore.id.au/blog/2014/10/24/add-role-based-authorisation-based-on-azure-ad-group-membership/)
-- [Creating a SharePoint-style user lookup control backed by Azure AD](http://robdmoore.id.au/blog/2014/11/04/creating-a-sharepoint-style-user-lookup-control-backed-by-azure-ad/)
+- [Authenticating an ASP.NET MVC 5 application with Microsoft Azure Active Directory](/blog/2014/06/29/authenticating-an-asp-net-mvc-5-application-with-microsoft-azure-active-directory/)
+- [Explaining the code behind authenticating MVC5 app with Azure AD](/blog/2014/10/24/explaining-the-code-behind-authenticating-mvc5-app-with-azure-ad/)
+- [Add role-based authorisation based on Azure AD group membership](/blog/2014/10/24/add-role-based-authorisation-based-on-azure-ad-group-membership/)
+- [Creating a SharePoint-style user lookup control backed by Azure AD](/blog/2014/11/04/creating-a-sharepoint-style-user-lookup-control-backed-by-azure-ad/)
 
 
 ## SharePoint-style user lookup
@@ -53,7 +53,7 @@ This post provides instructions for a way to get this kind of control working. I
 ## Querying the graph API
 
 
-In a [previous post](http://robdmoore.id.au/blog/2014/10/24/add-role-based-authorisation-based-on-azure-ad-group-membership/ "Add role-based authorisation based on Azure AD group membership") I introduced the AzureADGraphConnection class to wrap up calls to the Azure AD Graph API. For the purposes of adding a user lookup there are two methods that are useful to add:
+In a [previous post](/blog/2014/10/24/add-role-based-authorisation-based-on-azure-ad-group-membership/ "Add role-based authorisation based on Azure AD group membership") I introduced the AzureADGraphConnection class to wrap up calls to the Azure AD Graph API. For the purposes of adding a user lookup there are two methods that are useful to add:
 
 
 
@@ -104,7 +104,7 @@ In a [previous post](http://robdmoore.id.au/blog/2014/10/24/add-role-based-autho
 
 
 
-For this to work you need to ensure your Azure AD application has the permissions to read data from the directory as discussed in the [last post](http://robdmoore.id.au/blog/2014/10/24/add-role-based-authorisation-based-on-azure-ad-group-membership/ "Add role-based authorisation based on Azure AD group membership").
+For this to work you need to ensure your Azure AD application has the permissions to read data from the directory as discussed in the [last post](/blog/2014/10/24/add-role-based-authorisation-based-on-azure-ad-group-membership/ "Add role-based authorisation based on Azure AD group membership").
 
 
 ## Creating the user control semantics

@@ -15,7 +15,7 @@ author: rob
 ---
 
 
-As I just mentioned in my post on [Robust testing](http://robdmoore.id.au/blog/2012/05/29/robust-testing/ "Robust testing") the best kind of test is one that automatically updates when you change your code. In particular when that test provides you a lot of value and checks something that would otherwise have a likelihood of going wrong when you deploy it (in particular production!). This post gives an example of this kind of test.
+As I just mentioned in my post on [Robust testing](/blog/2012/05/29/robust-testing/ "Robust testing") the best kind of test is one that automatically updates when you change your code. In particular when that test provides you a lot of value and checks something that would otherwise have a likelihood of going wrong when you deploy it (in particular production!). This post gives an example of this kind of test.
 
 
 ## The problem

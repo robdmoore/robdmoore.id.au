@@ -13,7 +13,7 @@ author: rob
 ---
 
 
-This post discusses the talk "[TDD, where did it all go wrong](http://vimeo.com/68375232)" by Ian Cooper, which was given in June 2013. See [my introduction post](http://robdmoore.id.au/blog/2015/01/26/testing-i-dont-even/) to get the context behind this post and the other posts I have written in this series.
+This post discusses the talk "[TDD, where did it all go wrong](http://vimeo.com/68375232)" by Ian Cooper, which was given in June 2013. See [my introduction post](/blog/2015/01/26/testing-i-dont-even/) to get the context behind this post and the other posts I have written in this series.
 
 
 
@@ -138,13 +138,13 @@ Using mocks of implementation details significantly increases the fragility of t
 
 
 
-Mocks still have their place - if you want to test a port and would like to isolate it from another port (e.g. an API call to an external system) then it makes sense to mock that out. This was covered further [in the previous article](http://robdmoore.id.au/blog/2015/01/26/review-of-j-b-rainsberger-integrated-tests-are-a-scam/) in the "Contract and collaboration tests" section.
+Mocks still have their place - if you want to test a port and would like to isolate it from another port (e.g. an API call to an external system) then it makes sense to mock that out. This was covered further [in the previous article](/blog/2015/01/26/review-of-j-b-rainsberger-integrated-tests-are-a-scam/) in the "Contract and collaboration tests" section.
 
 
 ## Problems with higher level unit tests
 
 
-I'm not advocating that this style of testing is a silver bullet - far from it. Like everything in software development it's about [trade-offs](http://stackoverflow.com/a/25825936) and I'm sure that there are scenarios that it won't be suitable for. Ian covered some of the problems in his talk, I've already talked about the [combinatorial problem](http://robdmoore.id.au/blog/2015/01/26/review-of-j-b-rainsberger-integrated-tests-are-a-scam/) and [Martyn Frank covers some more in his post about Ian's talk](http://frankcode.wordpress.com/2014/07/01/tdd-where-did-i-go-wrong/). I've listed out all of the problems I know of below.
+I'm not advocating that this style of testing is a silver bullet - far from it. Like everything in software development it's about [trade-offs](http://stackoverflow.com/a/25825936) and I'm sure that there are scenarios that it won't be suitable for. Ian covered some of the problems in his talk, I've already talked about the [combinatorial problem](/blog/2015/01/26/review-of-j-b-rainsberger-integrated-tests-are-a-scam/) and [Martyn Frank covers some more in his post about Ian's talk](http://frankcode.wordpress.com/2014/07/01/tdd-where-did-i-go-wrong/). I've listed out all of the problems I know of below.
 
 
 ### Complex implementation
@@ -169,13 +169,13 @@ In a lot of ways this hybrid approach also helps with the combinatorial explosio
 ### Combinatorial explosion
 
 
-I've covered this comprehensively in the [previous article](http://robdmoore.id.au/blog/2015/01/26/review-of-j-b-rainsberger-integrated-tests-are-a-scam/). This can be a serious problem, but as per the previous section in those instances just write the lower-level tests.
+I've covered this comprehensively in the [previous article](/blog/2015/01/26/review-of-j-b-rainsberger-integrated-tests-are-a-scam/). This can be a serious problem, but as per the previous section in those instances just write the lower-level tests.
 
 
 ### Complex tests
 
 
-The other point that Ian raised is that you are interacting with more objects this might mean there is more you need to set up in your tests, which then make the arrange section of the tests harder to understand and maintain and reducing the advantage of writing the tests in the first place. Ian indicates that because you are rarely setting up mocks for complex interactions he usually sees simpler arrange sections, but he mentions that the test data buider and object mother patterns can be helpful to reduce complexity too. I have [covered these patterns in the past](http://robdmoore.id.au/blog/2013/05/26/test-data-generation-the-right-way-object-mother-test-data-builders-nsubstitute-nbuilder/) and can confirm that they have helped me significantly in reducing complexity and improving maintainability of the arrange section of the tests.
+The other point that Ian raised is that you are interacting with more objects this might mean there is more you need to set up in your tests, which then make the arrange section of the tests harder to understand and maintain and reducing the advantage of writing the tests in the first place. Ian indicates that because you are rarely setting up mocks for complex interactions he usually sees simpler arrange sections, but he mentions that the test data buider and object mother patterns can be helpful to reduce complexity too. I have [covered these patterns in the past](/blog/2013/05/26/test-data-generation-the-right-way-object-mother-test-data-builders-nsubstitute-nbuilder/) and can confirm that they have helped me significantly in reducing complexity and improving maintainability of the arrange section of the tests.
 
 
 

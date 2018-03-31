@@ -13,7 +13,7 @@ author: rob
 ---
 
 
-This post discusses the talk "[Integrated Tests Are A Scam](http://vimeo.com/80533536)" by J.B. Rainsberger, which was given in November 2013. See [my introduction post](http://robdmoore.id.au/blog/2015/01/26/testing-i-dont-even/ "Unit, integration, subcutaneous, UI, fast, slow, mocks, TDD, isolation and scams… What is this? I don’t even!") to get the context behind this post and the other posts I have written in this series.
+This post discusses the talk "[Integrated Tests Are A Scam](http://vimeo.com/80533536)" by J.B. Rainsberger, which was given in November 2013. See [my introduction post](/blog/2015/01/26/testing-i-dont-even/ "Unit, integration, subcutaneous, UI, fast, slow, mocks, TDD, isolation and scams… What is this? I don’t even!") to get the context behind this post and the other posts I have written in this series.
 
 
 ## Overview

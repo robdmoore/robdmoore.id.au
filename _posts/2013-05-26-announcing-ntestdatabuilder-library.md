@@ -14,7 +14,7 @@ author: rob
 ---
 
 
-Further to the blog post I posted yesterday about the approach to [generating test fixture data for automated tests](http://robdmoore.id.au/blog/2013/05/26/test-data-generation-the-right-way-object-mother-test-data-builders-nsubstitute-nbuilder/ "Test Data Generation the right way: Object Mother + Test Data Builders + NSubstitute + NBuilder") that my team has adopted I have open sourced a base class and other supporting code infrastructure to quickly, tersely and maintainably generate fixture data in a consistent way.
+Further to the blog post I posted yesterday about the approach to [generating test fixture data for automated tests](/blog/2013/05/26/test-data-generation-the-right-way-object-mother-test-data-builders-nsubstitute-nbuilder/ "Test Data Generation the right way: Object Mother + Test Data Builders + NSubstitute + NBuilder") that my team has adopted I have open sourced a base class and other supporting code infrastructure to quickly, tersely and maintainably generate fixture data in a consistent way.
 
 
 

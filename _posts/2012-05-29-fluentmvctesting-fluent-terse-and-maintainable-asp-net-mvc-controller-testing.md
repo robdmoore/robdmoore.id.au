@@ -36,7 +36,7 @@ The other problem that I've noticed with most examples of controller testing is 
 
 
 
-I came up with this library after using the [MVCContrib.TestHelper](http://mvccontrib.codeplex.com/wikipage?title=TestHelper) library for quite a while, but becoming frustrated with it; the library was initially created during the [experiment I conducted](http://robdmoore.id.au/blog/2011/03/14/terse-controller-testing-with-asp-net-mvc/) to try and create terse controller tests (which I still have to write a follow-up post for at some point!). I have been using the library for over a year on a number of projects both personally and professionally.
+I came up with this library after using the [MVCContrib.TestHelper](http://mvccontrib.codeplex.com/wikipage?title=TestHelper) library for quite a while, but becoming frustrated with it; the library was initially created during the [experiment I conducted](/blog/2011/03/14/terse-controller-testing-with-asp-net-mvc/) to try and create terse controller tests (which I still have to write a follow-up post for at some point!). I have been using the library for over a year on a number of projects both personally and professionally.
 
 
 

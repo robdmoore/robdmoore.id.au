@@ -20,19 +20,19 @@ This post describes how to use Azure AD groups for role-based authorisation in y
 ## Practical Microsoft Azure Active Directory Blog Series
 
 
-This post is part of the [Practical Microsoft Azure Active Directory Blog Series](http://robdmoore.id.au/blog/2014/06/29/practical-microsoft-azure-active-directory-blog-series/ "Practical Microsoft Azure Active Directory Blog Series").
+This post is part of the [Practical Microsoft Azure Active Directory Blog Series](/blog/2014/06/29/practical-microsoft-azure-active-directory-blog-series/ "Practical Microsoft Azure Active Directory Blog Series").
 
 
-- [Authenticating an ASP.NET MVC 5 application with Microsoft Azure Active Directory](http://robdmoore.id.au/blog/2014/06/29/authenticating-an-asp-net-mvc-5-application-with-microsoft-azure-active-directory/)
-- [Explaining the code behind authenticating MVC5 app with Azure AD](http://robdmoore.id.au/blog/2014/10/24/explaining-the-code-behind-authenticating-mvc5-app-with-azure-ad/)
-- [Add role-based authorisation based on Azure AD group membership](http://robdmoore.id.au/blog/2014/10/24/add-role-based-authorisation-based-on-azure-ad-group-membership/)
-- [Creating a SharePoint-style user lookup control backed by Azure AD](http://robdmoore.id.au/blog/2014/11/04/creating-a-sharepoint-style-user-lookup-control-backed-by-azure-ad/)
+- [Authenticating an ASP.NET MVC 5 application with Microsoft Azure Active Directory](/blog/2014/06/29/authenticating-an-asp-net-mvc-5-application-with-microsoft-azure-active-directory/)
+- [Explaining the code behind authenticating MVC5 app with Azure AD](/blog/2014/10/24/explaining-the-code-behind-authenticating-mvc5-app-with-azure-ad/)
+- [Add role-based authorisation based on Azure AD group membership](/blog/2014/10/24/add-role-based-authorisation-based-on-azure-ad-group-membership/)
+- [Creating a SharePoint-style user lookup control backed by Azure AD](/blog/2014/11/04/creating-a-sharepoint-style-user-lookup-control-backed-by-azure-ad/)
 
 
 ## Add role-based authorisation based on Azure AD group membership
 
 
-These instructions will help you easily add role-based authorisation based on Azure AD group membership to your existing ASP.NET application with [Azure AD authentication](http://robdmoore.id.au/blog/2014/06/29/authenticating-an-asp-net-mvc-5-application-with-microsoft-azure-active-directory/ "Authenticating an ASP.NET MVC 5 application with Microsoft Azure Active Directory").  The links show either a commit from the [example project](https://github.com/robdmoore/AzureAdMvcExample) or to relevant documentation.
+These instructions will help you easily add role-based authorisation based on Azure AD group membership to your existing ASP.NET application with [Azure AD authentication](/blog/2014/06/29/authenticating-an-asp-net-mvc-5-application-with-microsoft-azure-active-directory/ "Authenticating an ASP.NET MVC 5 application with Microsoft Azure Active Directory").  The links show either a commit from the [example project](https://github.com/robdmoore/AzureAdMvcExample) or to relevant documentation.
 
 
 

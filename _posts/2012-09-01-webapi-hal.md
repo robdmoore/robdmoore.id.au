@@ -16,7 +16,7 @@ author: rob
 ---
 
 
-Lately I've been having a bit of fun learning [ASP.NET Web API](http://www.asp.net/web-api) and I've been working with [Jake Ginnivan](http://jake.ginnivan.net/) to come up with a library that allows you to follow the [HATEOS](http://en.wikipedia.org/wiki/HATEOAS) principle of [REST](http://en.wikipedia.org/wiki/Representational_state_transfer) using it. We've been doing this by implementing a specification that allows you to specify hypermedia for JSON and XML called [HAL](http://stateless.co/hal_specification.html).
+Lately I've been having a bit of fun learning [ASP.NET Web API](http://www.asp.net/web-api) and I've been working with [Jake Ginnivan](http://jake.ginnivan.net/) to come up with a library that allows you to follow the [HATEOS](https://en.wikipedia.org/wiki/HATEOAS) principle of [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) using it. We've been doing this by implementing a specification that allows you to specify hypermedia for JSON and XML called [HAL](http://stateless.co/hal_specification.html).
 
 
 

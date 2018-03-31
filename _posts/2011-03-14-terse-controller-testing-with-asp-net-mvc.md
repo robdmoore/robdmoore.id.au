@@ -13,7 +13,7 @@ author: rob
 ---
 
 
-As I alluded to in a [previous post](http://robdmoore.id.au/blog/2011/03/12/web-application-testing/ "Web application testing"), I think that achieving high code coverage in controller tests is often a waste of time in terms of return on investment - most of the stuff in there will be trivial things that either work or don't and will be hard to regressively break (e.g. returning the view with the model if model validation failed). In saying that, if there is a way to get really terse tests then they become easier to write and maintain and then it's worth aiming for high code coverage (since the reward outweighs the cost).  
+As I alluded to in a [previous post](/blog/2011/03/12/web-application-testing/ "Web application testing"), I think that achieving high code coverage in controller tests is often a waste of time in terms of return on investment - most of the stuff in there will be trivial things that either work or don't and will be hard to regressively break (e.g. returning the view with the model if model validation failed). In saying that, if there is a way to get really terse tests then they become easier to write and maintain and then it's worth aiming for high code coverage (since the reward outweighs the cost).  
 <!--more-->  
 With this in mind, I am performing an experiment to see how terse I can get some 100% code coverage controller tests to become. I'm not sure how many posts this series will end up being or what the outcome will be, but I have a few ideas in my head. Namely around exploring the following techniques in turn to see how they decrease the verbosity of the tests:
 

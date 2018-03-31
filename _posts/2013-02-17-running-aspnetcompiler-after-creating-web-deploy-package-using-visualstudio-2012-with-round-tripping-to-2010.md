@@ -13,7 +13,7 @@ author: rob
 ---
 
 
-I've previously blogged (as a side-note of an unrelated problem I was having) the approach that I use to [overcome the problem that the AspNetCompiler has when you have the extraneous web.config files in the obj folder after creating a web deploy package](http://robdmoore.id.au/blog/2012/05/21/web-deploy-package-connection-string-parameterisation-problem/ "Web Deploy Package Connection String Parameterisation Problem").
+I've previously blogged (as a side-note of an unrelated problem I was having) the approach that I use to [overcome the problem that the AspNetCompiler has when you have the extraneous web.config files in the obj folder after creating a web deploy package](/blog/2012/05/21/web-deploy-package-connection-string-parameterisation-problem/ "Web Deploy Package Connection String Parameterisation Problem").
 
 
 

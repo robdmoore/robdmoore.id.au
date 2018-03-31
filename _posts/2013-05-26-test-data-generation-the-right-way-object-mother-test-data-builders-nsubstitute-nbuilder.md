@@ -39,7 +39,7 @@ If you are diligent with refactoring your tests then you will likely start pulli
 - Building lists is really verbose and will likely feature a lot of repetition / hard-to-read code.
   - You can bring in libraries like [NBuilder](http://nbuilder.org/) to make this easier and more readable.
   - You can't use the best parts of NBuilder if you are not using public property setters so you can enforce domain invariants.
-- Your approach to generating data will be largely inconsistent across test classes - some will have private methods, some will do it inline, some might delegate to factories or helper classes etc. - this makes the code [hard to understand and maintain](http://robdmoore.id.au/blog/2012/09/01/consistency-maintainability/ "Consistency == Maintainability").
+- Your approach to generating data will be largely inconsistent across test classes - some will have private methods, some will do it inline, some might delegate to factories or helper classes etc. - this makes the code [hard to understand and maintain](/blog/2012/09/01/consistency-maintainability/ "Consistency == Maintainability").
 - It's not immediately clear which of the parameters you are passing into the constructor are there to meet the requirements of the call and which are there because the test dictates it - this means the intent of your test is somewhat obscured
 
 
@@ -186,7 +186,7 @@ One argument against this approach, particularly when you first start out your t
 - We set any reasonable defaults in our builder constructor so `new CustomerBuilder().Build()` will give a reasonable object (unless for that particular type of object there are any properties that make sense to always have to specify, in which case we don't add a default for that property).
 - We have created a base class that allows us to set/get the property values into a dictionary using a lambda expression that identifies the property whose value is being set/retrieved - this reduces the code in the builder by eliminating the need for most (sometimes there is still a need to keep state in the builder where you are storing something not expressed by one of the properties) of the private variables in the builder.
 - We only add fluent methods for the properties we are actually using in our tests that point in time - this means we don't have dead methods lying around in the builders and initially they are very terse.
-- We have a base class that defines a lot of the common infrastructure behind defining a builder (including the ability to return a proxy object and the ability to create a list of builders using NBuilder - I've open sourced the code as [NTestDataBuilder](http://robdmoore.id.au/blog/2013/05/26/announcing-ntestdatabuilder-library/ "Announcing NTestDataBuilder library")).
+- We have a base class that defines a lot of the common infrastructure behind defining a builder (including the ability to return a proxy object and the ability to create a list of builders using NBuilder - I've open sourced the code as [NTestDataBuilder](/blog/2013/05/26/announcing-ntestdatabuilder-library/ "Announcing NTestDataBuilder library")).
 
 
 
@@ -194,7 +194,7 @@ This generally means that we can be up and running with an object mother and bui
 
 
 
-Here is an example of what I mean from the [NTestDataBuilder](http://robdmoore.id.au/blog/2013/05/26/announcing-ntestdatabuilder-library/ "Announcing NTestDataBuilder library") library I have released:
+Here is an example of what I mean from the [NTestDataBuilder](/blog/2013/05/26/announcing-ntestdatabuilder-library/ "Announcing NTestDataBuilder library") library I have released:
 
 
 

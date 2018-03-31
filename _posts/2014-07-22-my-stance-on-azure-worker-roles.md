@@ -30,11 +30,11 @@ On the surface though, Worker Roles are the most appropriate and robust way to d
 ## Web Jobs
 
 
-The advice I generally give people when deploying websites to Azure is to use Azure Web Sites unless there is something that [requires them to use Web Roles](http://robdmoore.id.au/blog/2012/06/09/windows-azure-web-sites-vs-web-roles/ "Windows Azure Web Sites vs Web Roles") (and use Virtual Machines as a last resort). That way you are left with the best possible development, deployment, debugging and support experience possible for your application.
+The advice I generally give people when deploying websites to Azure is to use Azure Web Sites unless there is something that [requires them to use Web Roles](/blog/2012/06/09/windows-azure-web-sites-vs-web-roles/ "Windows Azure Web Sites vs Web Roles") (and use Virtual Machines as a last resort). That way you are left with the best possible development, deployment, debugging and support experience possible for your application.
 
 
 
-Now that [Web Jobs](http://azure.microsoft.com/en-us/documentation/articles/web-sites-create-web-jobs/) have been released for a while and have a level of maturity and stability I have been giving the same sort of advice when it comes to background processing: if you have a workload that can run on the [Azure Web Sites platform](http://robdmoore.id.au/blog/2012/06/09/windows-azure-web-sites-vs-web-roles/ "Windows Azure Web Sites vs Web Roles") (e.g. doesn't need registry/COM+/GDI+/elevated privileges/custom software installed/mounted drives/Virtual Network/custom certificates etc.) and it doesn't have intensive CPU or memory resource usage then use Web Jobs.
+Now that [Web Jobs](http://azure.microsoft.com/en-us/documentation/articles/web-sites-create-web-jobs/) have been released for a while and have a level of maturity and stability I have been giving the same sort of advice when it comes to background processing: if you have a workload that can run on the [Azure Web Sites platform](/blog/2012/06/09/windows-azure-web-sites-vs-web-roles/ "Windows Azure Web Sites vs Web Roles") (e.g. doesn't need registry/COM+/GDI+/elevated privileges/custom software installed/mounted drives/Virtual Network/custom certificates etc.) and it doesn't have intensive CPU or memory resource usage then use Web Jobs.
 
 
 

@@ -14,19 +14,19 @@ author: rob
 ---
 
 
-This post explains the code outlined in the [last post](http://robdmoore.id.au/blog/2014/06/29/authenticating-an-asp-net-mvc-5-application-with-microsoft-azure-active-directory/ "Authenticating an ASP.NET MVC 5 application with Microsoft Azure Active Directory") on installing Azure AD authentication to an existing (or new) ASP.NET MVC 5 (or 3 or 4) application.
+This post explains the code outlined in the [last post](/blog/2014/06/29/authenticating-an-asp-net-mvc-5-application-with-microsoft-azure-active-directory/ "Authenticating an ASP.NET MVC 5 application with Microsoft Azure Active Directory") on installing Azure AD authentication to an existing (or new) ASP.NET MVC 5 (or 3 or 4) application.
 
 
 ## Practical Microsoft Azure Active Directory Blog Series
 
 
-This post is part of the [Practical Microsoft Azure Active Directory Blog Series](http://robdmoore.id.au/blog/2014/06/29/practical-microsoft-azure-active-directory-blog-series/ "Practical Microsoft Azure Active Directory Blog Series").
+This post is part of the [Practical Microsoft Azure Active Directory Blog Series](/blog/2014/06/29/practical-microsoft-azure-active-directory-blog-series/ "Practical Microsoft Azure Active Directory Blog Series").
 
 
-- [Authenticating an ASP.NET MVC 5 application with Microsoft Azure Active Directory](http://robdmoore.id.au/blog/2014/06/29/authenticating-an-asp-net-mvc-5-application-with-microsoft-azure-active-directory/)
-- [Explaining the code behind authenticating MVC5 app with Azure AD](http://robdmoore.id.au/blog/2014/10/24/explaining-the-code-behind-authenticating-mvc5-app-with-azure-ad/)
-- [Add role-based authorisation based on Azure AD group membership](http://robdmoore.id.au/blog/2014/10/24/add-role-based-authorisation-based-on-azure-ad-group-membership/)
-- [Creating a SharePoint-style user lookup control backed by Azure AD](http://robdmoore.id.au/blog/2014/11/04/creating-a-sharepoint-style-user-lookup-control-backed-by-azure-ad/)
+- [Authenticating an ASP.NET MVC 5 application with Microsoft Azure Active Directory](/blog/2014/06/29/authenticating-an-asp-net-mvc-5-application-with-microsoft-azure-active-directory/)
+- [Explaining the code behind authenticating MVC5 app with Azure AD](/blog/2014/10/24/explaining-the-code-behind-authenticating-mvc5-app-with-azure-ad/)
+- [Add role-based authorisation based on Azure AD group membership](/blog/2014/10/24/add-role-based-authorisation-based-on-azure-ad-group-membership/)
+- [Creating a SharePoint-style user lookup control backed by Azure AD](/blog/2014/11/04/creating-a-sharepoint-style-user-lookup-control-backed-by-azure-ad/)
 
 
 ## Microsoft.Owin.Security.ActiveDirectory
@@ -68,7 +68,7 @@ So what do these WIF modules do? From the [WSFederationAuthenticationModule docu
 
 
 
-> When an unauthenticated user tries to access a protected resource, the [[Relying Party (RP)](http://en.wikipedia.org/wiki/Relying_party)] returns a “401 authorization denied” HTTP response. The WS-FAM intercepts this response instead of allowing the client to receive it, then it redirects the user to the specified [[Security Token Service](http://en.wikipedia.org/wiki/Security_token_service) (STS)]. The STS issues a security token, which the WS-FAM again intercepts. The WS-FAM uses the token to create an instance of [ClaimsPrincipal](http://msdn.microsoft.com/en-us/library/system.security.claims.claimsprincipal.aspx) for the authenticated user, which enables regular .NET Framework authorization mechanisms to function.
+> When an unauthenticated user tries to access a protected resource, the [[Relying Party (RP)](https://en.wikipedia.org/wiki/Relying_party)] returns a “401 authorization denied” HTTP response. The WS-FAM intercepts this response instead of allowing the client to receive it, then it redirects the user to the specified [[Security Token Service](https://en.wikipedia.org/wiki/Security_token_service) (STS)]. The STS issues a security token, which the WS-FAM again intercepts. The WS-FAM uses the token to create an instance of [ClaimsPrincipal](http://msdn.microsoft.com/en-us/library/system.security.claims.claimsprincipal.aspx) for the authenticated user, which enables regular .NET Framework authorization mechanisms to function.
 > 
 > 
 > 
@@ -146,7 +146,7 @@ You can ensure that the security cookie is set to require SSL with the `requireS
 
 
 
-In production environments it's absolutely essential that you set both to true otherwise you are vulnerable to [MITM](http://en.wikipedia.org/wiki/Man-in-the-middle_attack) attacks. You can set them to true locally if you use https with IIS Express or via a self-signed cert with IIS.
+In production environments it's absolutely essential that you set both to true otherwise you are vulnerable to [MITM](https://en.wikipedia.org/wiki/Man-in-the-middle_attack) attacks. You can set them to true locally if you use https with IIS Express or via a self-signed cert with IIS.
 
 
 ### issuer

@@ -19,11 +19,11 @@ author: rob
 This is part of my ongoing Automated Testing blog series:
 
 
-- [Test Naming](http://robdmoore.id.au/blog/2014/01/23/test-naming-automated-testing-series/)
-- [General Test Structure](http://robdmoore.id.au/blog/2014/01/27/general-test-structure-automated-testing-series/)
-- [Acceptance Tests Structure](http://robdmoore.id.au/blog/2014/01/27/acceptance-tests-structure-automated-testing-series/)
-- [Making Intent Clear](http://robdmoore.id.au/blog/2014/02/23/making-intent-clear-derived-values-automated-testing-series/)
-  - [Derived Values](http://robdmoore.id.au/blog/2014/02/23/making-intent-clear-derived-values-automated-testing-series/)
+- [Test Naming](/blog/2014/01/23/test-naming-automated-testing-series/)
+- [General Test Structure](/blog/2014/01/27/general-test-structure-automated-testing-series/)
+- [Acceptance Tests Structure](/blog/2014/01/27/acceptance-tests-structure-automated-testing-series/)
+- [Making Intent Clear](/blog/2014/02/23/making-intent-clear-derived-values-automated-testing-series/)
+  - [Derived Values](/blog/2014/02/23/making-intent-clear-derived-values-automated-testing-series/)
   - Anonymous Variables
   - Equivalence Classes and Constrained Non-Determinism
 - Unit Testing
@@ -41,7 +41,7 @@ When writing high level acceptance tests (as opposed to unit tests) I will alway
 
 
 
-I've said before and I still maintain that [consistency is the most important aspect when it comes to keeping a software application maintainable](http://robdmoore.id.au/blog/2012/09/01/consistency-maintainability/) so I think that within a particular set of tests if you are writing some that are single method Arrange, Act, Assert tests then you shouldn't mix those tests with something like Bddfy since it's wildly different. I feel that the [techniques I described for structuring tests using test-per-class](http://robdmoore.id.au/blog/2014/01/27/general-test-structure-automated-testing-series/) in the last post in the series is OK to mix with AAA tests though as I discussed in that post.
+I've said before and I still maintain that [consistency is the most important aspect when it comes to keeping a software application maintainable](/blog/2012/09/01/consistency-maintainability/) so I think that within a particular set of tests if you are writing some that are single method Arrange, Act, Assert tests then you shouldn't mix those tests with something like Bddfy since it's wildly different. I feel that the [techniques I described for structuring tests using test-per-class](/blog/2014/01/27/general-test-structure-automated-testing-series/) in the last post in the series is OK to mix with AAA tests though as I discussed in that post.
 
 
 

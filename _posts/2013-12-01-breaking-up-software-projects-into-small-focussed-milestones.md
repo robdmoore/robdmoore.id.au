@@ -28,7 +28,7 @@ Often, the person/people in question don't really have a good understanding abou
 
 
 
-An approach I've often taken in the past to combat this is to begin by getting product owners to prioritise high-level requirements with the [MoSCoW](http://en.wikipedia.org/wiki/MoSCoW_Method) system and then take the must-have's and possibly the should-have's and labelled that as phase 1 and continued to flesh out those requirements into user stories. This then leaves the less important requirements at the bottom of the backlog giving a clear expectation that any estimations and grooming effort will be expended on the most important features and won't include "everything" that the person initially had in their vision (since that's unrealistic).
+An approach I've often taken in the past to combat this is to begin by getting product owners to prioritise high-level requirements with the [MoSCoW](https://en.wikipedia.org/wiki/MoSCoW_Method) system and then take the must-have's and possibly the should-have's and labelled that as phase 1 and continued to flesh out those requirements into user stories. This then leaves the less important requirements at the bottom of the backlog giving a clear expectation that any estimations and grooming effort will be expended on the most important features and won't include "everything" that the person initially had in their vision (since that's unrealistic).
 
 
 
@@ -74,5 +74,5 @@ I don't think that the approach I describe above is necessarily the best way of 
 
 - [#noestimates](http://neilkillick.com/2013/01/31/noestimates-part-1-doing-scrum-without-estimates/)
 - Approaching everything in terms of strict [minimum viable products](http://theleanstartup.com/principles) and using that to drive decisions based on how real users interact with those minimum viable products
-- [Driving everything from strategic direction](http://robdmoore.id.au/blog/2013/11/30/presentation-moving-from-technical-agility-to-strategic-agility/)
+- [Driving everything from strategic direction](/blog/2013/11/30/presentation-moving-from-technical-agility-to-strategic-agility/)
 

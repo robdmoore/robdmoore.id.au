@@ -66,10 +66,10 @@ You can see the [source code of this application here](https://github.com/robdmo
 This will be the rough structure of the posts I am planning in no particular order (I'll update this list with links to the posts over time):
 
 
-- [Authenticating an ASP.NET MVC 5 application with Microsoft Azure Active Directory](http://robdmoore.id.au/blog/2014/06/29/authenticating-an-asp-net-mvc-5-application-with-microsoft-azure-active-directory/ "Authenticating an ASP.NET MVC 5 application with Microsoft Azure Active Directory")
-- [Explaining the code behind authenticating MVC5 app with Azure AD](http://robdmoore.id.au/blog/2014/10/24/explaining-the-code-behind-authenticating-mvc5-app-with-azure-ad/)
-- [Add role-based authorisation based on Azure AD group membership](http://robdmoore.id.au/blog/2014/10/24/add-role-based-authorisation-based-on-azure-ad-group-membership/)
-- [Creating a SharePoint-style user lookup control backed by Azure AD](http://robdmoore.id.au/blog/2014/11/04/creating-a-sharepoint-style-user-lookup-control-backed-by-azure-ad/)
+- [Authenticating an ASP.NET MVC 5 application with Microsoft Azure Active Directory](/blog/2014/06/29/authenticating-an-asp-net-mvc-5-application-with-microsoft-azure-active-directory/ "Authenticating an ASP.NET MVC 5 application with Microsoft Azure Active Directory")
+- [Explaining the code behind authenticating MVC5 app with Azure AD](/blog/2014/10/24/explaining-the-code-behind-authenticating-mvc5-app-with-azure-ad/)
+- [Add role-based authorisation based on Azure AD group membership](/blog/2014/10/24/add-role-based-authorisation-based-on-azure-ad-group-membership/)
+- [Creating a SharePoint-style user lookup control backed by Azure AD](/blog/2014/11/04/creating-a-sharepoint-style-user-lookup-control-backed-by-azure-ad/)
 - How to get a list of all users in a particular group
 - Deploying your application to multiple environments
 - How to authenticate against ASP.NET Web API using Azure AD
@@ -78,7 +78,7 @@ This will be the rough structure of the posts I am planning in no particular ord
 
 
 
-I'm notoriously bad at finishing [blog](http://robdmoore.id.au/blog/2012/08/12/maintainable-large-scale-continuous-delivery-with-teamcity/ "Maintainable, large-scale continuous delivery with TeamCity Blog Series") [series](http://robdmoore.id.au/blog/2014/01/23/test-naming-automated-testing-series/ "Test Naming [Automated Testing Series]")' that I start, so no promises on when I will complete this, but I have all of the code figured out in one way or another and the GitHub should at least contain commits with all of the above before I finish the accompanying posts so \*fingers crossed\*! Feel free to comment below if you want me to expedite a particular post.
+I'm notoriously bad at finishing [blog](/blog/2012/08/12/maintainable-large-scale-continuous-delivery-with-teamcity/ "Maintainable, large-scale continuous delivery with TeamCity Blog Series") [series](/blog/2014/01/23/test-naming-automated-testing-series/ "Test Naming [Automated Testing Series]")' that I start, so no promises on when I will complete this, but I have all of the code figured out in one way or another and the GitHub should at least contain commits with all of the above before I finish the accompanying posts so \*fingers crossed\*! Feel free to comment below if you want me to expedite a particular post.
 
 
 ## More resources

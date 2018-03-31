@@ -132,7 +132,7 @@ I recently started playing Dungeons and Dragons and one of the first things abou
 
 
 
-In particular [iPlay4E](http://iplay4e.appspot.com/) is really good, but you need to use it in conjunction with [Character Builder](http://www.wizards.com/DnD/Tool.aspx?x=dnd/4new/tool/characterbuilder) in order to add and edit items and abilities and level up. Personally, the thought of having to pay a $70/year subscription for something that I play for a couple of hours a week seems a bit silly, so I might use my [infinite](http://en.wikipedia.org/wiki/Sarcasm) spare time to create a basic web app to track my character and use it as an excuse to play with [jQuery Mobile](http://jquerymobile.com/).
+In particular [iPlay4E](http://iplay4e.appspot.com/) is really good, but you need to use it in conjunction with [Character Builder](http://www.wizards.com/DnD/Tool.aspx?x=dnd/4new/tool/characterbuilder) in order to add and edit items and abilities and level up. Personally, the thought of having to pay a $70/year subscription for something that I play for a couple of hours a week seems a bit silly, so I might use my [infinite](https://en.wikipedia.org/wiki/Sarcasm) spare time to create a basic web app to track my character and use it as an excuse to play with [jQuery Mobile](http://jquerymobile.com/).
 
 
 ## Disadvantages / Barriers to adoption

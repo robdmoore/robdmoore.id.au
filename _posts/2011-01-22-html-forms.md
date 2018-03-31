@@ -22,12 +22,12 @@ As any web developer will likely tell you, the most tedious,  time-consuming and
 - There is repetition in referencing each field in the form in  numerous locations, i.e. default values, server-side validation,  printing out the form <abbr title="HyperText Markup Language">HTML</abbr> and potentially also in client-side validation code
 - Printing out the HTML form the form is tedious because each field  has practically the same HTML except for the field id repeated a few  times, and occasionally a different type of form control (e.g. select or  textarea)
 - Similarly, the repetition between server-side and client-side validation is tedious
-- You need to be careful when printing out the HTML to ensure there is no possibility of [HTML injection](http://en.wikipedia.org/wiki/Code_injection "Opens new window") (i.e. you need to use `HTMLEditFormat` (in ColdFusion, `htmlentities` in <abbr title="PHP: Hypertext Preprocessor">PHP</abbr> etc.) before printing out form scoped values, this is easy to forget or miss)
+- You need to be careful when printing out the HTML to ensure there is no possibility of [HTML injection](https://en.wikipedia.org/wiki/Code_injection "Opens new window") (i.e. you need to use `HTMLEditFormat` (in ColdFusion, `htmlentities` in <abbr title="PHP: Hypertext Preprocessor">PHP</abbr> etc.) before printing out form scoped values, this is easy to forget or miss)
 - You need to be careful to include labels for all fields for  accessibility reasons and ensure their ids match up; it's easy to miss a  few if you are copying and pasting the same HTML for each field and  changing a few attributes (although the HTMLValidator plugin for Firefox  shows duplicate / un-matched ids making it easy to identify this for  the astute developer)
 
 
 
-Without continuing further with other reasons, the above list serves  to demonstrate that the process of creating a form is a tedious and  repetitive process and certainly does not conform to the <acronym title="Don't Repeat Yourself"><a href="http://en.wikipedia.org/wiki/Don%27t_repeat_yourself" target="_blank">DRY</a></acronym> principle. This means that form creation is often an error-prone  process, resulting in inconsistencies. This means that forms often have  usability and accessibility issues.
+Without continuing further with other reasons, the above list serves  to demonstrate that the process of creating a form is a tedious and  repetitive process and certainly does not conform to the <acronym title="Don't Repeat Yourself"><a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself" target="_blank">DRY</a></acronym> principle. This means that form creation is often an error-prone  process, resulting in inconsistencies. This means that forms often have  usability and accessibility issues.
 
 
 

@@ -184,5 +184,5 @@ An example showing both for the above filter provider is given below:
 ## Update (23/03/2013)
 
 
-It might not be necessary to ever use DependencyResolver.Current any more due to a [new technique I've found](http://robdmoore.id.au/blog/2013/03/23/resolving-request-scoped-objects-into-a-singleton-with-autofac/).
+It might not be necessary to ever use DependencyResolver.Current any more due to a [new technique I've found](/blog/2013/03/23/resolving-request-scoped-objects-into-a-singleton-with-autofac/).
 

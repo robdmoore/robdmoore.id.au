@@ -28,7 +28,7 @@ This post describes a package I created to be able to run QUnit testing from wit
 ## Automated JavaScript testing is hard
 
 
-The main difficulty with automated testing of JavaScript, [as I alluded to in my previous post](http://robdmoore.id.au/blog/2011/03/12/web-application-testing/ "Web application testing") (Wow, Wordpress is cool these days; I was able to create that link without opening another tab to find the URL), is that there is a reliance of having a web browser instance open to do the testing (especially if the JavaScript has any integration with the DOM). This isn't a trivial thing to test in an automated way, although there are [some](http://swarm.jquery.org/) [things](http://code.google.com/p/js-test-driver/) [out](http://watin.sourceforge.net/) [there](http://seleniumhq.org/) that go some way in addressing that issue.
+The main difficulty with automated testing of JavaScript, [as I alluded to in my previous post](/blog/2011/03/12/web-application-testing/ "Web application testing") (Wow, Wordpress is cool these days; I was able to create that link without opening another tab to find the URL), is that there is a reliance of having a web browser instance open to do the testing (especially if the JavaScript has any integration with the DOM). This isn't a trivial thing to test in an automated way, although there are [some](http://swarm.jquery.org/) [things](http://code.google.com/p/js-test-driver/) [out](http://watin.sourceforge.net/) [there](http://seleniumhq.org/) that go some way in addressing that issue.
 
 
 ## Automated JavaScript testing inside your server-side testing framework is good

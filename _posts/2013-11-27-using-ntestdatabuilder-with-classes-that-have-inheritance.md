@@ -12,7 +12,7 @@ author: rob
 ---
 
 
-If you are building test data using the [NTestDataBuilder library](http://robdmoore.id.au/blog/2013/05/26/announcing-ntestdatabuilder-library/ "Announcing NTestDataBuilder library") I released and you are dealing with classes that have an inheritance chain then you might want to have a base builder class that abstracts common properties.
+If you are building test data using the [NTestDataBuilder library](/blog/2013/05/26/announcing-ntestdatabuilder-library/ "Announcing NTestDataBuilder library") I released and you are dealing with classes that have an inheritance chain then you might want to have a base builder class that abstracts common properties.
 
 
 

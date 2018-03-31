@@ -51,19 +51,19 @@ if (you.WantToBeAGoodWebDeveloper()) {
 	// Programming
 	you.Should.ObserveThe(
 		"Don't repeat yourself principle",
-		"http://en.wikipedia.org/wiki/Don%27t_repeat_yourself"
+		"https://en.wikipedia.org/wiki/Don%27t_repeat_yourself"
 	);
 	you.Should.ObserveThe(
 		"Separation of concerns principle",
-		"http://en.wikipedia.org/wiki/Separation_of_concerns"
+		"https://en.wikipedia.org/wiki/Separation_of_concerns"
 	);
 	you.Should.Try(
 		"Test-Driven Development (TDD)",
-		"http://en.wikipedia.org/wiki/Test-driven_development"
+		"https://en.wikipedia.org/wiki/Test-driven_development"
 	);
 	you.Should.Try(
 		"Behaviour-Driven Development (BDD)",
-		"http://en.wikipedia.org/wiki/Behavior_Driven_Development"
+		"https://en.wikipedia.org/wiki/Behavior_Driven_Development"
 	);
 	you.Should.Try(
 		"Continuous Integration (CI)",
@@ -71,11 +71,11 @@ if (you.WantToBeAGoodWebDeveloper()) {
 	);
 	you.Should.Try(
 		"Agile software development",
-		"http://en.wikipedia.org/wiki/Agile_software_development"
+		"https://en.wikipedia.org/wiki/Agile_software_development"
 	);
 	you.Should.Use(
 		"Version Control Systems (VCS, also known as Source Configuration Management (SCM))",
-		"http://en.wikipedia.org/wiki/Revision_control"
+		"https://en.wikipedia.org/wiki/Revision_control"
 	);
 	you.Should.BeA(
 		"Pragmatic Programmer",
@@ -95,11 +95,11 @@ if (you.WantToBeAGoodWebDeveloper()) {
 		"http://www.alistapart.com/articles/wiwa/"
 	).And(
 		"Create cross-browser friendly websites",
-		"http://en.wikipedia.org/wiki/Cross-browser"
+		"https://en.wikipedia.org/wiki/Cross-browser"
 	);
 	you.Should.EnsureYou(
 		"Create usable websites",
-		"http://en.wikipedia.org/wiki/Web_usability"
+		"https://en.wikipedia.org/wiki/Web_usability"
 	);
 	you.Should.EnsureYou(
 		"Design sites with good Information Architecture (IA)",
@@ -138,9 +138,9 @@ if (you.WantToBeAGoodWebDeveloper()) {
 		"http://www.jetbrains.com/"
 	);
 	you.Should.LookAt(
-		"http://en.wikipedia.org/wiki/Git_(software)",
-		"http://en.wikipedia.org/wiki/Mercurial"
-		"http://en.wikipedia.org/wiki/Apache_Subversion",
+		"https://en.wikipedia.org/wiki/Git_(software)",
+		"https://en.wikipedia.org/wiki/Mercurial"
+		"https://en.wikipedia.org/wiki/Apache_Subversion",
 	);
 	you.Should.LookAt(
 		"http://home.snafu.de/tilman/xenulink.html"
@@ -185,20 +185,20 @@ if (you.WantToBeAGoodWebDeveloper()) {
 	);
 	you.Should.ReadAndLearn(
 		"HTML Forms",
-		"http://robdmoore.id.au/blog/2011/01/22/html-forms/"
+		"https://robdmoore.id.au/blog/2011/01/22/html-forms/"
 	);
 	you.Should.ReadAndLearn(
 		"Previous Posts",
-		"http://robdmoore.id.au/blog/2011/01/22/previous-posts/"
+		"https://robdmoore.id.au/blog/2011/01/22/previous-posts/"
 	);
 	// JavaScript
 	you.Should.Use(
 		"Unobtrusive JavaScript",
-		"http://en.wikipedia.org/wiki/Unobtrusive_JavaScript"
+		"https://en.wikipedia.org/wiki/Unobtrusive_JavaScript"
 	);
 	you.Should.ReadAndLearn(
 		"AJAX",
-		"http://en.wikipedia.org/wiki/Ajax_%28programming%29"
+		"https://en.wikipedia.org/wiki/Ajax_%28programming%29"
 	);
 	you.Should.Read(
 		"JavaScript: The Good Parts",

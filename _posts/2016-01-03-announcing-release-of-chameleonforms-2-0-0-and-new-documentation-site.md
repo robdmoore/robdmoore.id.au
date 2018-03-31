@@ -15,7 +15,7 @@ author: rob
 ---
 
 
-I'm somewhat more subdued with my excitement for announcing this [than I was for 1.0](https://robdmoore.id.au/blog/2013/11/17/chameleonforms-1-0-released/). In fact I just had a chuckle to myself in re-reading that post :) (oh and if you were wondering - did Matt and I enjoy Borderlands 2? Yes we very much did, it's a great game).
+I'm somewhat more subdued with my excitement for announcing this [than I was for 1.0](/blog/2013/11/17/chameleonforms-1-0-released/). In fact I just had a chuckle to myself in re-reading that post :) (oh and if you were wondering - did Matt and I enjoy Borderlands 2? Yes we very much did, it's a great game).
 
 
 

@@ -15,7 +15,7 @@ author: rob
 ---
 
 
-As outlined in the first post of my [Automated Testing blog series](http://robdmoore.id.au/blog/2014/01/23/test-naming-automated-testing-series/) I've been on a journey of self reflection and discovery about how best to write, structure and maintain automated tests.
+As outlined in the first post of my [Automated Testing blog series](/blog/2014/01/23/test-naming-automated-testing-series/) I've been on a journey of self reflection and discovery about how best to write, structure and maintain automated tests.
 
 
 
@@ -40,9 +40,9 @@ In order to answer these questions and more I've watched a range of videos and r
 There are some notable videos that I've come across that, in particular, have helped me with my learning and realisations so I've created a series of posts around them (and might add to it over time if I find other posts). I've tried to summarise the main points I found interesting from the material as well as injecting my own thoughts and experience where relevant.
 
 
-- [Review of: J.B. Rainsberger – Integrated Tests Are A Scam](http://robdmoore.id.au/blog/2015/01/26/review-of-j-b-rainsberger-integrated-tests-are-a-scam/ "Review of: J.B. Rainsberger – Integrated Tests Are A Scam")
-- [Review of: Ian Cooper – TDD, where did it all go wrong](http://robdmoore.id.au/blog/2015/01/26/review-of-ian-cooper-tdd-where-did-it-all-go-wrong/ "Review of: Ian Cooper – TDD, where did it all go wrong")
-- [Review of: Jimmy Bogard - Holistic Testing](http://robdmoore.id.au/blog/2015/01/26/review-of-jimmy-bogard-holistic-testing/ "Review of: Jimmy Bogard – Holistic Testing")
+- [Review of: J.B. Rainsberger – Integrated Tests Are A Scam](/blog/2015/01/26/review-of-j-b-rainsberger-integrated-tests-are-a-scam/ "Review of: J.B. Rainsberger – Integrated Tests Are A Scam")
+- [Review of: Ian Cooper – TDD, where did it all go wrong](/blog/2015/01/26/review-of-ian-cooper-tdd-where-did-it-all-go-wrong/ "Review of: Ian Cooper – TDD, where did it all go wrong")
+- [Review of: Jimmy Bogard - Holistic Testing](/blog/2015/01/26/review-of-jimmy-bogard-holistic-testing/ "Review of: Jimmy Bogard – Holistic Testing")
 
 
 
@@ -59,7 +59,7 @@ I will summarise my current thoughts (this might change over time) by revisiting
   - Typical consultant answer: it depends. In general I'd say write the fastest possible test you can that gives you the minimum required confidence and bakes in the minimum amount of implementation details.
   - I've had a lot of luck covering line-of-business web apps with mostly subcutaneous tests against the MVC controllers, with a smattering of unit tests to check conventions and test really complex logic and I typically see how far I can get without writing UI tests, but when I do I test high-value scenarios or complex UIs.
 - What is a unit test anyway? Everyone seems to have a different definition!
-  - I like [Jimmy Bogard's definition](http://robdmoore.id.au/blog/2015/01/26/review-of-jimmy-bogard-holistic-testing/ "Review of: Jimmy Bogard – Holistic Testing"): "Units of behaviour, isolated from other units of behaviour"
+  - I like [Jimmy Bogard's definition](/blog/2015/01/26/review-of-jimmy-bogard-holistic-testing/ "Review of: Jimmy Bogard – Holistic Testing"): "Units of behaviour, isolated from other units of behaviour"
 - How do I get feedback as fast as possible - reducing feedback loops is incredibly important.
   - Follow Jimmy's advice and focus on writing as many tests that are as fast as possible rather than worrying about whether a test is a unit test or integration test.
   - Be pragmmatic though, you might get adequate speed, but a higher level of confidence by integrating your tests with the database for instance (this has worked well for me)

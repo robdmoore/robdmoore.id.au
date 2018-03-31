@@ -13,7 +13,7 @@ author: rob
 ---
 
 
-I'm pleased to announce the addition of a (somewhat) new library to the [TestStack family](https://github.com/teststack) called TestStack.Dossier. I say somewhat new because it's a version 2 of an existing library that I published called [NTestDataBuilder](https://robdmoore.id.au/blog/2013/05/26/announcing-ntestdatabuilder-library/). If you hadn't already heard about that library here is the one liner (which has only changed slightly with the rename):
+I'm pleased to announce the addition of a (somewhat) new library to the [TestStack family](https://github.com/teststack) called TestStack.Dossier. I say somewhat new because it's a version 2 of an existing library that I published called [NTestDataBuilder](/blog/2013/05/26/announcing-ntestdatabuilder-library/). If you hadn't already heard about that library here is the one liner (which has only changed slightly with the rename):
 
 
 
@@ -31,13 +31,13 @@ There is more to TestStack.Dossier v2 than just a name change, a lot more. I've 
 
 
 
-> Side note: [my original post on combining the test data builder pattern with the object mother pattern](https://robdmoore.id.au/blog/2013/05/26/test-data-generation-the-right-way-object-mother-test-data-builders-nsubstitute-nbuilder/) and [follow-up presentation](https://github.com/robdmoore/TestWestTestDataSustainabilityPresentation) still holds very true - this combination of patterns has been invaluable and has led to terser, more readable tests that are easier to maintain. I still highly recommend this approach (I use <s>NTestDataBuilder</s> TestStack.Dossier for the test data builder part).
+> Side note: [my original post on combining the test data builder pattern with the object mother pattern](/blog/2013/05/26/test-data-generation-the-right-way-object-mother-test-data-builders-nsubstitute-nbuilder/) and [follow-up presentation](https://github.com/robdmoore/TestWestTestDataSustainabilityPresentation) still holds very true - this combination of patterns has been invaluable and has led to terser, more readable tests that are easier to maintain. I still highly recommend this approach (I use <s>NTestDataBuilder</s> TestStack.Dossier for the test data builder part).
 
 
 ### Anonymous value support
 
 
-As explained in my anonymous variables post (TBW(ritten) - future proofing this post, or setting myself up for disappointment :P) in my [automated testing series](http://robdmoore.id.au/blog/2014/01/23/test-naming-automated-testing-series/), the use of the [anonymous variable pattern](http://blogs.msdn.com/b/ploeh/archive/2008/11/17/anonymous-variables.aspx) is a good pattern to use when you want to use values in your tests whose exact value isn't significant. By including a specific value you are making it look like that value is important in some way - stealing cognitive load from the test reader while they figure out the value in fact doesn't not matter.
+As explained in my anonymous variables post (TBW(ritten) - future proofing this post, or setting myself up for disappointment :P) in my [automated testing series](/blog/2014/01/23/test-naming-automated-testing-series/), the use of the [anonymous variable pattern](http://blogs.msdn.com/b/ploeh/archive/2008/11/17/anonymous-variables.aspx) is a good pattern to use when you want to use values in your tests whose exact value isn't significant. By including a specific value you are making it look like that value is important in some way - stealing cognitive load from the test reader while they figure out the value in fact doesn't not matter.
 
 
 
@@ -65,7 +65,7 @@ class CustomerBuilder : TestDataBuilder<Customer, CustomerBuilder>
 
 
 
-In that case the values `"Rob"`, `"Moore"` and `2013` look significant on initial inspection. In reality it doesn't matter what they are; any test where those values matter should specify them to [make the intent clear](http://robdmoore.id.au/blog/2014/02/23/making-intent-clear-derived-values-automated-testing-series/).
+In that case the values `"Rob"`, `"Moore"` and `2013` look significant on initial inspection. In reality it doesn't matter what they are; any test where those values matter should specify them to [make the intent clear](/blog/2014/02/23/making-intent-clear-derived-values-automated-testing-series/).
 
 
 
@@ -95,11 +95,11 @@ This gets you started for the most basic of cases, but from there you have a lot
 ### Equivalence classes support
 
 
-As explained in my equivalence classes and constrained non-determinism post (TBW) in my [automated testing series](http://robdmoore.id.au/blog/2014/01/23/test-naming-automated-testing-series/) the principle of [constrained non-determinism](http://blog.ploeh.dk/2009/03/05/ConstrainedNon-Determinism/) frees you from having to worry about the fact that anonymous values can be random as long as they fall within the [equivalence class](http://xunitpatterns.com/equivalence%20class.html) of the value that is required for your test.
+As explained in my equivalence classes and constrained non-determinism post (TBW) in my [automated testing series](/blog/2014/01/23/test-naming-automated-testing-series/) the principle of [constrained non-determinism](http://blog.ploeh.dk/2009/03/05/ConstrainedNon-Determinism/) frees you from having to worry about the fact that anonymous values can be random as long as they fall within the [equivalence class](http://xunitpatterns.com/equivalence%20class.html) of the value that is required for your test.
 
 
 
-I think the same concept can and should be applied to test data builders. More than that, I think it enhances the ability for the test data builders to [act as documentation](http://robdmoore.id.au/blog/2013/05/26/test-data-generation-the-right-way-object-mother-test-data-builders-nsubstitute-nbuilder/). Having a constructor that reads like this for instance tells you something interesting about the `Year` property:
+I think the same concept can and should be applied to test data builders. More than that, I think it enhances the ability for the test data builders to [act as documentation](/blog/2013/05/26/test-data-generation-the-right-way-object-mother-test-data-builders-nsubstitute-nbuilder/). Having a constructor that reads like this for instance tells you something interesting about the `Year` property:
 
 
 

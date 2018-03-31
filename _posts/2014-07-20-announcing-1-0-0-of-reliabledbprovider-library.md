@@ -17,7 +17,7 @@ I'd like to announce that today I've released v1.0.0 of the ReliableDbProvider l
 
 
 
-[ReliableDbProvider is a library that allows you to unobtrusively handle transient errors when connecting to Azure SQL Database](http://robdmoore.id.au/blog/2013/06/18/unobtrusive-transient-fault-handling-in-azure-sql-database-with-entity-framework-linq-to-sql-nhibernate-and-ado-net/ "Unobtrusive transient fault handling in Azure SQL Database with Entity Framework, Linq To Sql, NHibernate and ADO.NET") when using ADO.NET, Linq 2 Sql, EntityFramework < 6 (EF6 has similar functionality in-built) or any library that uses ADO.NET (e.g. Massive).
+[ReliableDbProvider is a library that allows you to unobtrusively handle transient errors when connecting to Azure SQL Database](/blog/2013/06/18/unobtrusive-transient-fault-handling-in-azure-sql-database-with-entity-framework-linq-to-sql-nhibernate-and-ado-net/ "Unobtrusive transient fault handling in Azure SQL Database with Entity Framework, Linq To Sql, NHibernate and ADO.NET") when using ADO.NET, Linq 2 Sql, EntityFramework < 6 (EF6 has similar functionality in-built) or any library that uses ADO.NET (e.g. Massive).
 
 
 

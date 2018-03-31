@@ -16,7 +16,6 @@ https://infiniteajaxscroll.com/docs/getting-started.html
 https://github.com/pattex/jekyll-tagging
 disqus https://github.com/mmistakes/jekyll-theme-basically-basic#structure
 weird characters
-http://robdmoore.id.au urls
 broken whitepaper links
 jekyll plugin to check external links?
 styling for <code/>

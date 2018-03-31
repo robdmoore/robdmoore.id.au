@@ -25,7 +25,7 @@ In short:
   - You pay a per-site cost, but it's very low at under $10/month for a single site
   - It removes the upper limit on bandwidth (I'm not sure if that had been announced previously - I hadn't heard about that before) for the free instances which is 165MB/day
   - [You get 5GB of outbound bandwidth for free each month for the moment](https://www.windowsazure.com/en-us/pricing/details/#data-transfers) and then [pay standard outbound rates after that](https://www.windowsazure.com/en-us/pricing/details/#web-sites)
-- Based on what Scott said in his post it looks like you can have an unlimited number of web sites in reserved mode ([with the initial release it was 10](http://robdmoore.id.au/blog/2012/06/09/windows-azure-web-sites-vs-web-roles/ "Windows Azure Web Sites vs Web Roles"))
+- Based on what Scott said in his post it looks like you can have an unlimited number of web sites in reserved mode ([with the initial release it was 10](/blog/2012/06/09/windows-azure-web-sites-vs-web-roles/ "Windows Azure Web Sites vs Web Roles"))
   - I suspect this also applies to the paid shared hosting, but regardless at a point you would upgrade to reserved anyway since it's not a per-site cost so it becomes cheaper than a whole heap of shared hosting sites
 - You can now use CNames against the (paid) shared hosting model
 - You can now use A records against (paid) shared hosting or against reserved hosting!

@@ -15,7 +15,7 @@ author: rob
 ---
 
 
-I've [blogged previously](http://robdmoore.id.au/blog/2014/03/22/githubflowversion-teamcity-metarunner/ "GitHubFlowVersion TeamCity MetaRunner") about using GitHubFlowVersion for versioning and how I created a TeamCity meta-runner for it.
+I've [blogged previously](/blog/2014/03/22/githubflowversion-teamcity-metarunner/ "GitHubFlowVersion TeamCity MetaRunner") about using GitHubFlowVersion for versioning and how I created a TeamCity meta-runner for it.
 
 
 

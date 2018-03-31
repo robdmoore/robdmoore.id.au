@@ -16,11 +16,11 @@ author: rob
 ---
 
 
-This week I had an [issue raised on my Github](https://github.com/robdmoore/UnobtrusiveMVCTechniques/issues/1) site for examples of [unobtrusive validation with ASP.NET MVC](http://robdmoore.id.au/blog/2012/04/27/unobtrusive-validation-in-asp-net-mvc-3-and-4/ "Unobtrusive Validation in ASP.NET MVC 3 and 4"). The person that raised the issue was having a problem where they wanted their fluent validation modules to be singleton, but they wanted to inject a factory that can be invoked to return a request-scoped object (in this case some sort of database store). Inevitably they came across the "*No scope with a Tag matching 'AutofacWebRequest' is visible from the scope in which the instance was requested*" error.
+This week I had an [issue raised on my Github](https://github.com/robdmoore/UnobtrusiveMVCTechniques/issues/1) site for examples of [unobtrusive validation with ASP.NET MVC](/blog/2012/04/27/unobtrusive-validation-in-asp-net-mvc-3-and-4/ "Unobtrusive Validation in ASP.NET MVC 3 and 4"). The person that raised the issue was having a problem where they wanted their fluent validation modules to be singleton, but they wanted to inject a factory that can be invoked to return a request-scoped object (in this case some sort of database store). Inevitably they came across the "*No scope with a Tag matching 'AutofacWebRequest' is visible from the scope in which the instance was requested*" error.
 
 
 
-I've blogged previously about a technique for [using DependencyResolver.Current and being able to unit test it](http://robdmoore.id.au/blog/2012/04/27/testing-code-that-uses-autofac-dependencyresolver-in-asp-net-mvc/ "Testing code that uses Autofac + DependencyResolver in ASP.NET MVC") for similar situations. It's not a great solution, but it does work and at least it can be unit tested.
+I've blogged previously about a technique for [using DependencyResolver.Current and being able to unit test it](/blog/2012/04/27/testing-code-that-uses-autofac-dependencyresolver-in-asp-net-mvc/ "Testing code that uses Autofac + DependencyResolver in ASP.NET MVC") for similar situations. It's not a great solution, but it does work and at least it can be unit tested.
 
 
 

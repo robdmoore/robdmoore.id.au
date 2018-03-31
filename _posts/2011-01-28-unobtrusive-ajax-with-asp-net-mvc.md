@@ -88,7 +88,7 @@ This way if the request for `Validate` occurs normally then whatever view or red
 
 
 
-For those of you that have jumped the gun and already ran the code or who are cluey enough to have noticed, there is something missing from the above code snippet; the `JSon` method for the Controller class. The following is my implementation for it (using the wonders of [Extension methods](http://en.wikipedia.org/wiki/Extension_method)):
+For those of you that have jumped the gun and already ran the code or who are cluey enough to have noticed, there is something missing from the above code snippet; the `JSon` method for the Controller class. The following is my implementation for it (using the wonders of [Extension methods](https://en.wikipedia.org/wiki/Extension_method)):
 
 
 

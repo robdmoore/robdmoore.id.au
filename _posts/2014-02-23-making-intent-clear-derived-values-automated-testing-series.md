@@ -16,11 +16,11 @@ author: rob
 This is part of my ongoing Automated Testing blog series:
 
 
-- [Test Naming](http://robdmoore.id.au/blog/2014/01/23/test-naming-automated-testing-series/)
-- [General Test Structure](http://robdmoore.id.au/blog/2014/01/27/general-test-structure-automated-testing-series/)
-- [Acceptance Tests Structure](http://robdmoore.id.au/blog/2014/01/27/acceptance-tests-structure-automated-testing-series/)
-- [Making Intent Clear](http://robdmoore.id.au/blog/2014/02/23/making-intent-clear-derived-values-automated-testing-series/)
-  - [Derived Values](http://robdmoore.id.au/blog/2014/02/23/making-intent-clear-derived-values-automated-testing-series/)
+- [Test Naming](/blog/2014/01/23/test-naming-automated-testing-series/)
+- [General Test Structure](/blog/2014/01/27/general-test-structure-automated-testing-series/)
+- [Acceptance Tests Structure](/blog/2014/01/27/acceptance-tests-structure-automated-testing-series/)
+- [Making Intent Clear](/blog/2014/02/23/making-intent-clear-derived-values-automated-testing-series/)
+  - [Derived Values](/blog/2014/02/23/making-intent-clear-derived-values-automated-testing-series/)
   - Anonymous Variables
   - Equivalence Classes and Constrained Non-Determinism
 - Unit Testing
@@ -34,11 +34,11 @@ This is part of my ongoing Automated Testing blog series:
 ## Making Intent Clear
 
 
-I think one of the most important things when writing tests (apart from [consistency](http://robdmoore.id.au/blog/2012/09/01/consistency-maintainability/ "Consistency == Maintainability")) is that they are clear in intent. If you buy into the notion that tests form part of the documentation of your system then it's really important, like all good documentation, that the tests are both readable and understandable.
+I think one of the most important things when writing tests (apart from [consistency](/blog/2012/09/01/consistency-maintainability/ "Consistency == Maintainability")) is that they are clear in intent. If you buy into the notion that tests form part of the documentation of your system then it's really important, like all good documentation, that the tests are both readable and understandable.
 
 
 
-I think there are a number of techniques that can help with this in various situations and there are three in particular that I will be covering in this sub-section of the blog series. I have already covered [test naming](http://robdmoore.id.au/blog/2014/01/23/test-naming-automated-testing-series/) and I think that has a big impact on clarity of intent.
+I think there are a number of techniques that can help with this in various situations and there are three in particular that I will be covering in this sub-section of the blog series. I have already covered [test naming](/blog/2014/01/23/test-naming-automated-testing-series/) and I think that has a big impact on clarity of intent.
 
 
 ## Derived Values
@@ -182,7 +182,7 @@ A couple of examples are shown below, pulled from a codebase I work on (with som
 
 
 
-Props to my colleague [Toby Moore](https://twitter.com/tobycmoore) for coming up with the idea of using the Unix [cal](http://en.wikipedia.org/wiki/Cal_(Unix)) command to generate calendars for pasting in comments above the examples).
+Props to my colleague [Toby Moore](https://twitter.com/tobycmoore) for coming up with the idea of using the Unix [cal](https://en.wikipedia.org/wiki/Cal_(Unix)) command to generate calendars for pasting in comments above the examples).
 
 
 

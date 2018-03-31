@@ -17,7 +17,7 @@ author: rob
 ---
 
 
-One of the things I find frustrating with ASP.NET MVC out of the box is creating forms. That's not to say I find it more frustrating than other frameworks or libraries though; on the contrary [I think it's painful almost always](http://robdmoore.id.au/blog/2011/01/22/html-forms/). I think ASP.NET MVC has an amazingly powerful and useful capacity to handle forms. However, out of the box I find it fiddly and annoying to output the HTML associated with the form in a consistent and maintainable way across a whole website.
+One of the things I find frustrating with ASP.NET MVC out of the box is creating forms. That's not to say I find it more frustrating than other frameworks or libraries though; on the contrary [I think it's painful almost always](/blog/2011/01/22/html-forms/). I think ASP.NET MVC has an amazingly powerful and useful capacity to handle forms. However, out of the box I find it fiddly and annoying to output the HTML associated with the form in a consistent and maintainable way across a whole website.
 
 
 

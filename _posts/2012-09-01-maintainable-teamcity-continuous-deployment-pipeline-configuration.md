@@ -34,11 +34,11 @@ While this post is .NET focussed, the concepts here apply to any type of deploym
 This post is part of a blog series jointly written by myself and [Matt Davies](http://blog.mdavies.net/) called Maintainable, large-scale continuous delivery with TeamCity:
 
 
-1. [Intro](http://robdmoore.id.au/blog/2012/08/12/maintainable-large-scale-continuous-delivery-with-teamcity/)
+1. [Intro](/blog/2012/08/12/maintainable-large-scale-continuous-delivery-with-teamcity/)
 2. TeamCity deployment pipeline
-  - [TeamCity deployment pipeline (part 1: structure)](http://robdmoore.id.au/blog/2012/09/01/maintainable-teamcity-continuous-deployment-pipeline-configuration/)
+  - [TeamCity deployment pipeline (part 1: structure)](/blog/2012/09/01/maintainable-teamcity-continuous-deployment-pipeline-configuration/)
   - [TeamCity deployment pipeline (part 2: TeamCity 8, build once and UI tests)](http://blog.mdavies.net/2014/04/21/teamcity-deployment-pipeline-part-2-teamcity-8-build-once-and-ui-tests/)
-  - [TeamCity deployment pipeline (part 3: using OctopusDeploy for deployments)](http://robdmoore.id.au/blog/2014/04/21/teamcity-deployment-pipeline-part-3-using-octopusdeploy-for-deployments/)
+  - [TeamCity deployment pipeline (part 3: using OctopusDeploy for deployments)](/blog/2014/04/21/teamcity-deployment-pipeline-part-3-using-octopusdeploy-for-deployments/)
 3. Deploying Web Applications
   - MsDeploy (onprem and Azure Web Sites)
   - OctopusDeploy (nuget)
@@ -110,7 +110,7 @@ Some things to notice are:
 ## Convention over Configuration
 
 
-One of the main concepts that I employ to ensure that the TeamCity setup is as maintainable as possible for a large number of projects is [convention over configuration](http://en.wikipedia.org/wiki/Convention_over_configuration). This requires consistency between projects in order for them to work and as [I have said previously](http://robdmoore.id.au/blog/2012/09/01/consistency-maintainability/ "Consistency == Maintainability"), I think this is really important for all projects to have anyway.
+One of the main concepts that I employ to ensure that the TeamCity setup is as maintainable as possible for a large number of projects is [convention over configuration](https://en.wikipedia.org/wiki/Convention_over_configuration). This requires consistency between projects in order for them to work and as [I have said previously](/blog/2012/09/01/consistency-maintainability/ "Consistency == Maintainability"), I think this is really important for all projects to have anyway.
 
 
 
@@ -233,7 +233,7 @@ You will note that the branch name is specified as a build parameter. I used the
 ## Continuous Integration step configuration
 
 
-A lot of what I do here is covered by the posts I referenced in the [first post of the series](http://robdmoore.id.au/blog/2012/08/12/maintainable-large-scale-continuous-delivery-with-teamcity/ "Maintainable, large-scale continuous delivery with TeamCity Blog Series") apart from using the relevant environment variables as defined in the build configuration parameters. Consequently, I've simply included a few basic screenshots below that cover the bulk of it:
+A lot of what I do here is covered by the posts I referenced in the [first post of the series](/blog/2012/08/12/maintainable-large-scale-continuous-delivery-with-teamcity/ "Maintainable, large-scale continuous delivery with TeamCity Blog Series") apart from using the relevant environment variables as defined in the build configuration parameters. Consequently, I've simply included a few basic screenshots below that cover the bulk of it:
 
 
 

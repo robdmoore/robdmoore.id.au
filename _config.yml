@@ -4,7 +4,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 email: me@robdmoore.id.au
-url: https://robdmoore.id.au/blog
+url: https://robdmoore.id.au
 title: Robert Daniel Moore's Blog
 name: Robert Daniel Moore's Blog
 description: 'Blog about software engineering, web development, agile/lean/Continuous Delivery, C#, ASP.NET and Microsoft Azure.'

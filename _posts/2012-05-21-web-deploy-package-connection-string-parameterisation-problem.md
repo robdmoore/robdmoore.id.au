@@ -102,5 +102,5 @@ Basically, if you have MvcBuildViews set to true then it will run MvcBuildViews 
 ## Update (17 Feb 2013)
 
 
-If you are trying to use the above MSBuild with Visual Studio 2012 then it won't work. I have [blogged a solution that works in both Visual Studio 2012 and Visual Studio 2010](http://robdmoore.id.au/blog/2013/02/17/running-aspnetcompiler-after-creating-web-deploy-package-using-visualstudio-2012-with-round-tripping-to-2010/ "Running AspNetCompiler after creating web deploy package using VisualStudio 2012 with round-tripping to 2010") though.
+If you are trying to use the above MSBuild with Visual Studio 2012 then it won't work. I have [blogged a solution that works in both Visual Studio 2012 and Visual Studio 2010](/blog/2013/02/17/running-aspnetcompiler-after-creating-web-deploy-package-using-visualstudio-2012-with-round-tripping-to-2010/ "Running AspNetCompiler after creating web deploy package using VisualStudio 2012 with round-tripping to 2010") though.
 

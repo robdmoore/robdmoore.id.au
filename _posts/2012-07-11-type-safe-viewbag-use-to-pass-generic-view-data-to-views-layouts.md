@@ -110,7 +110,7 @@ There is one thing I've missed out, which is [to get Razor to compile using this
 One thing that I've noticed some people do with this technique is to return something from DependencyResolver in the properties or use property injection from their dependency injection framework. While I'm all for unobtrusively setting these properties where possible (e.g. say you have an enumeration with the current environment (test / prod etc.) so you can do simple [feature toggles](http://martinfowler.com/bliki/FeatureToggle.html) in your views), it strikes me that it's probably not a good idea because it will encourage business logic to be called from within views (e.g. if you decided it would be easier to inject a database repository in one of the properties). I think it's way more testable and consistent to have any properties that are set outside of the views to be set from either:
 
 
-- The controller - for instance you might have a base controller (if you rely on the base controller being used across the site it might be worth [adding tests to check that this is the case](http://robdmoore.id.au/blog/2012/05/29/controller-instantiation-testing/ "Controller instantiation testing") [see Other Applications at the bottom of that post])
+- The controller - for instance you might have a base controller (if you rely on the base controller being used across the site it might be worth [adding tests to check that this is the case](/blog/2012/05/29/controller-instantiation-testing/ "Controller instantiation testing") [see Other Applications at the bottom of that post])
 - A global filter
 
 

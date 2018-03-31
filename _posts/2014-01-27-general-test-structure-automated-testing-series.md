@@ -17,11 +17,11 @@ author: rob
 This is part of my ongoing Automated Testing blog series:
 
 
-- [Test Naming](http://robdmoore.id.au/blog/2014/01/23/test-naming-automated-testing-series/)
-- [General Test Structure](http://robdmoore.id.au/blog/2014/01/27/general-test-structure-automated-testing-series/)
-- [Acceptance Tests Structure](http://robdmoore.id.au/blog/2014/01/27/acceptance-tests-structure-automated-testing-series/)
-- [Making Intent Clear](http://robdmoore.id.au/blog/2014/02/23/making-intent-clear-derived-values-automated-testing-series/)
-  - [Derived Values](http://robdmoore.id.au/blog/2014/02/23/making-intent-clear-derived-values-automated-testing-series/)
+- [Test Naming](/blog/2014/01/23/test-naming-automated-testing-series/)
+- [General Test Structure](/blog/2014/01/27/general-test-structure-automated-testing-series/)
+- [Acceptance Tests Structure](/blog/2014/01/27/acceptance-tests-structure-automated-testing-series/)
+- [Making Intent Clear](/blog/2014/02/23/making-intent-clear-derived-values-automated-testing-series/)
+  - [Derived Values](/blog/2014/02/23/making-intent-clear-derived-values-automated-testing-series/)
   - Anonymous Variables
   - Equivalence Classes and Constrained Non-Determinism
 - Unit Testing
@@ -67,7 +67,7 @@ There are a number of things to note about what I've been doing with this techni
 - We still managed to keep the convention of having a test described by Given (where appropriate; sometimes you don't need the Given), When and Then by ensuring that the combination of the class name and the test name cater for them
   - e.g. a class called `GivenX_WhenY` or just `WhenY` with a bunch of test methods called `ThenZ` or class called `GivenX` with a bunch of test methods called `WhenY_ThenZ`
 - You can reuse and extend common parts of your test logic by using inheritance e.g. define a base class with common Given and/or When and extend it for different variations of the Given and either reuse Then's from the base class and/or define new ones for each inheriting class
-  - I've seen some people use this technique with 5 levels deep of nested classes with one line of code being reused in some of the hierarchy; while I'm a massive fan of [DRY](http://en.wikipedia.org/wiki/Don't_repeat_yourself) I think that there is a point where you can go overboard and in the process lose understandability - 5 level deep nested test classes is in my opinion completely overboard
+  - I've seen some people use this technique with 5 levels deep of nested classes with one line of code being reused in some of the hierarchy; while I'm a massive fan of [DRY](https://en.wikipedia.org/wiki/Don't_repeat_yourself) I think that there is a point where you can go overboard and in the process lose understandability - 5 level deep nested test classes is in my opinion completely overboard
 - An interesting side-effect of this approach is that rather than having one test class per thing being tested you end up with multiple classes
   - I have always followed a convention of putting a test file in the same namespace as the class being tested (except in the Test project and post-fixing with `Tests`) e.g. `MyApp.Commands.CreateInvoiceCommand` would be tested by `MyApp.Tests.Commands.CreateInvoiceCommandTests`, but that doesn't work when you have multiple test files so what I've taken to doing is making a folder at `MyApp.Tests\Commands\CreateInvoiceCommandTests`, which contains all the test classes
   - This allows me to mix and match folders (where needed) and single test classes (sometimes a single class is enough so I don't bother creating a folder) while keeping it clear and consistent how and where to find the tests

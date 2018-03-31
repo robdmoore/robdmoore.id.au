@@ -13,7 +13,7 @@ author: rob
 ---
 
 
-This post discusses the talk "[Holistic Testing](http://vimeo.com/68390508)" by Jimmy Bogard, which was given in June 2013. See my [introduction post](http://robdmoore.id.au/blog/2015/01/26/testing-i-dont-even/) to get the context behind this post and the other posts I have written in this series.
+This post discusses the talk "[Holistic Testing](http://vimeo.com/68390508)" by Jimmy Bogard, which was given in June 2013. See my [introduction post](/blog/2015/01/26/testing-i-dont-even/) to get the context behind this post and the other posts I have written in this series.
 
 
 
@@ -61,7 +61,7 @@ It's worth looking at the ideas expressed by [Sebastien Lambla on Vertical Slide
 ## Mocks
 
 
-Similar to the ideas [expressed by Ian Cooper](http://robdmoore.id.au/blog/2015/01/26/review-of-ian-cooper-tdd-where-did-it-all-go-wrong/ "Review of: Ian Cooper – TDD, where did it all go wrong"), Jimmy tells us not to mock internal implementation details (e.g. collaborators passed into the constructor) and indicates that he rarely uses mocks. In fact he admitted that he would rather make the process of using mocks more painful and hand rolling them to discourage their use unless it's necessary.
+Similar to the ideas [expressed by Ian Cooper](/blog/2015/01/26/review-of-ian-cooper-tdd-where-did-it-all-go-wrong/ "Review of: Ian Cooper – TDD, where did it all go wrong"), Jimmy tells us not to mock internal implementation details (e.g. collaborators passed into the constructor) and indicates that he rarely uses mocks. In fact he admitted that he would rather make the process of using mocks more painful and hand rolling them to discourage their use unless it's necessary.
 
 
 
@@ -384,7 +384,7 @@ public class SuccessfulTeamResetPasswordScenario : SubcutaneousMvcTest<TeamReset
 Note:
 
 
-- The Object Mother with builder syntax is as per [my existing article on the matter](http://robdmoore.id.au/blog/2013/05/26/test-data-generation-the-right-way-object-mother-test-data-builders-nsubstitute-nbuilder/)
+- The Object Mother with builder syntax is as per [my existing article on the matter](/blog/2013/05/26/test-data-generation-the-right-way-object-mother-test-data-builders-nsubstitute-nbuilder/)
 - I defined `LoginTeam` in the `SubcutaneousMvcTest` base class and it sets the `Controller.User`object to a `ClaimsPrincipal` object for the given team (what ASP.NET MVC does for me when a team is actually logged in)
 - The `SaveAsync` method on `SeedDbConnection` is an extension method in my test project that I defined that takes a builder object, calls `.Build` and persists the object (and returns it for terseness):
     ```csharp
@@ -404,7 +404,7 @@ Note:
 ### When to use subcutaneous tests
 
 
-In my experience over the last few projects (line of business applications) I've found that I can write subcutaneous tests against MVC controllers and that replaces the need for most other tests (as discussed in the [previous post](http://robdmoore.id.au/blog/2015/01/26/review-of-ian-cooper-tdd-where-did-it-all-go-wrong/)). A distinction over the previous post is that I'm writing these tests from the MVC Controller rather than the port (the command object). By doing this I'm able to provide that extra bit of confidence that the binding from the view model through to the command layer is correct without writing extra tests. I was able to do this because I was confident that there was definitely only going to be a single UI/client and the application wasn't likely to grow a lot in complexity. If I was sure the command layer would get reused across multiple clients then I would test from that layer and only test the controller with a mock of the port if I felt it was needed.
+In my experience over the last few projects (line of business applications) I've found that I can write subcutaneous tests against MVC controllers and that replaces the need for most other tests (as discussed in the [previous post](/blog/2015/01/26/review-of-ian-cooper-tdd-where-did-it-all-go-wrong/)). A distinction over the previous post is that I'm writing these tests from the MVC Controller rather than the port (the command object). By doing this I'm able to provide that extra bit of confidence that the binding from the view model through to the command layer is correct without writing extra tests. I was able to do this because I was confident that there was definitely only going to be a single UI/client and the application wasn't likely to grow a lot in complexity. If I was sure the command layer would get reused across multiple clients then I would test from that layer and only test the controller with a mock of the port if I felt it was needed.
 
 
 
