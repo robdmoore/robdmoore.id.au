@@ -3,25 +3,13 @@ layout: post
 title: Announcing AspNet.Mvc.Grid
 date: 2014-08-19 20:04:31.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
 - ASP.NET MVC
 - C#
 - razor
-meta:
-  _edit_last: '1'
-  _syntaxhighlighter_encoded: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

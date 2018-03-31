@@ -3,23 +3,12 @@ layout: post
 title: Using NTestDataBuilder with classes that have inheritance
 date: 2013-11-27 13:46:53.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
 - C#
 - testing
-meta:
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

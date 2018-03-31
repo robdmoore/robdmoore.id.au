@@ -3,10 +3,6 @@ layout: post
 title: Using a FlipView with SemanticZoom in Windows 8 Metro-style application
 date: 2012-08-22 13:15:27.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -16,15 +12,7 @@ tags:
 - tech evangelism
 - windows 8
 - xaml
-meta:
-  _edit_last: '1'
-  _syntaxhighlighter_encoded: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

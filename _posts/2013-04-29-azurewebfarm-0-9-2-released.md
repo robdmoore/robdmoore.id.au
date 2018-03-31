@@ -3,10 +3,6 @@ layout: post
 title: AzureWebFarm 0.9.2 Released
 date: 2013-04-29 23:41:25.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -16,14 +12,7 @@ tags:
 - dev ops
 - NuGet
 - Windows Azure
-meta:
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

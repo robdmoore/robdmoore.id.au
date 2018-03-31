@@ -3,10 +3,6 @@ layout: post
 title: 'Presentation: Moving from Technical Agility to Strategic Agility'
 date: 2013-11-30 23:56:13.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -15,14 +11,7 @@ tags:
 - dev ops
 - lean
 - Software Engineering
-meta:
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

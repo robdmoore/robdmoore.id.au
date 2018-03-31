@@ -3,22 +3,11 @@ layout: post
 title: Introduction to Windows/Microsoft Azure
 date: 2014-04-20 15:27:20.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
 - Windows Azure
-meta:
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

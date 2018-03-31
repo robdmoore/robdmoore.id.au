@@ -3,10 +3,6 @@ layout: post
 title: 'TeamCity deployment pipeline (part 1: structure)'
 date: 2012-09-01 23:32:30.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -17,14 +13,7 @@ tags:
 - Software Engineering
 - TeamCity
 - Windows Azure
-meta:
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

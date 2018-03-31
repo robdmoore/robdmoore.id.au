@@ -3,24 +3,13 @@ layout: post
 title: Acceptance Criteria for Social sign-in integration
 date: 2012-09-20 23:46:08.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
 - acceptance criteria
 - BDD
 - TDD
-meta:
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

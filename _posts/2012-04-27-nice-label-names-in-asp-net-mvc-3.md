@@ -3,24 +3,12 @@ layout: post
 title: Nice label names in ASP.NET MVC 3
 date: 2012-04-27 00:55:25.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
 - ASP.NET MVC
 - C#
-meta:
-  _syntaxhighlighter_encoded: '1'
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

@@ -3,10 +3,6 @@ layout: post
 title: Windows Azure Web Sites Programmatic Web Deploy
 date: 2013-06-01 09:57:09.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -14,14 +10,7 @@ tags:
 - MSDeploy
 - TeamCity
 - Windows Azure
-meta:
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

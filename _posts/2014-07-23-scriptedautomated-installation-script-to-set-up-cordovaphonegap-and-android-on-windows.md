@@ -4,10 +4,6 @@ title: Scripted/Automated installation script to set up Cordova/PhoneGap and And
   on Windows
 date: 2014-07-23 15:43:39.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -17,14 +13,7 @@ tags:
 - PhoneGap
 - powershell
 - Windows Azure
-meta:
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

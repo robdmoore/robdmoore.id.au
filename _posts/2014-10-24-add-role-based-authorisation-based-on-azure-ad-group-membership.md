@@ -3,10 +3,6 @@ layout: post
 title: Add role-based authorisation based on Azure AD group membership
 date: 2014-10-24 18:45:57.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -14,15 +10,7 @@ tags:
 - Azure AD
 - C#
 - Windows Azure
-meta:
-  _edit_last: '1'
-  _syntaxhighlighter_encoded: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

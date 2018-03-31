@@ -3,10 +3,6 @@ layout: post
 title: Previous Posts
 date: 2011-01-22 18:27:08.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -20,15 +16,7 @@ tags:
 - RedDot
 - semantics
 - testing
-meta:
-  _edit_last: '1'
-  _wp_old_slug: ''
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

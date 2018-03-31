@@ -3,10 +3,6 @@ layout: post
 title: HTML Forms
 date: 2011-01-22 11:43:32.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -15,15 +11,7 @@ tags:
 - forms
 - HTML
 - Ruby On Rails (RoR)
-meta:
-  _edit_last: '1'
-  _wp_old_slug: ''
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

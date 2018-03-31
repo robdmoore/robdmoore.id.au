@@ -3,24 +3,13 @@ layout: post
 title: 'Windows Azure Web Sites (App Service: Web Apps) vs Web Roles'
 date: 2012-06-09 19:18:27.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
 - accelerator for web roles
 - continuous delivery
 - Windows Azure
-meta:
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

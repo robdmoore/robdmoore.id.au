@@ -3,24 +3,12 @@ layout: post
 title: Type-inferenced constants in abstract, generic base classes
 date: 2012-05-04 20:15:57.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
 - C#
 - Windows Azure
-meta:
-  _edit_last: '1'
-  _syntaxhighlighter_encoded: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 excerpt: Two techniques for constants that are accessed in an abstract, generic base
   class that are dependent on the generic implementation type.
 ---

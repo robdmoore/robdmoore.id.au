@@ -4,24 +4,12 @@ title: Running AspNetCompiler after creating web deploy package using VisualStud
   2012 with round-tripping to 2010
 date: 2013-02-17 20:37:47.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
 - MSBuild
 - MSDeploy
-meta:
-  _edit_last: '1'
-  _syntaxhighlighter_encoded: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

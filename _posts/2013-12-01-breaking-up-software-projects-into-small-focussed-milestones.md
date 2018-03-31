@@ -3,10 +3,6 @@ layout: post
 title: Breaking up software projects into small, focussed milestones
 date: 2013-12-01 00:03:59.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -14,14 +10,7 @@ tags:
 - Agile
 - continuous delivery
 - lean
-meta:
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

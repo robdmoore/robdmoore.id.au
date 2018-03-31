@@ -3,24 +3,13 @@ layout: post
 title: Announcing repave.psm1
 date: 2014-06-15 20:19:26.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
 - dev ops
 - powershell
 - tech evangelism
-meta:
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

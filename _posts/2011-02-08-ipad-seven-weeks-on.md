@@ -3,10 +3,6 @@ layout: post
 title: 'iPad: Seven weeks on'
 date: 2011-02-08 01:11:35.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - General
 - Technical
@@ -15,15 +11,7 @@ tags:
 - Pair Programming
 - t&amp;l
 - tech evangelism
-meta:
-  _edit_last: '1'
-  _wp_old_slug: ''
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

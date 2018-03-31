@@ -3,10 +3,6 @@ layout: post
 title: Announcing ChameleonForms 0.1
 date: 2012-11-01 23:36:11.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -17,14 +13,7 @@ tags:
 - HTML
 - NuGet
 - razor
-meta:
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

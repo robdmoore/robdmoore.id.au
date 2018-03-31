@@ -3,10 +3,6 @@ layout: post
 title: 'Coding Naming Conventions: Australian (or British) vs. American English'
 date: 2011-03-11 23:39:59.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - General
 - Technical
@@ -14,15 +10,7 @@ tags:
 - consistency
 - convention
 - language
-meta:
-  _edit_last: '1'
-  _wp_old_slug: coding-naming-conventions-australian-or-british-vs-american
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

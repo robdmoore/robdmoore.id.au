@@ -3,10 +3,6 @@ layout: post
 title: Developing ASP.NET web applications with IIS
 date: 2014-07-23 16:18:58.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -16,15 +12,7 @@ tags:
 - sql
 - tech evangelism
 - Visual Studio
-meta:
-  _edit_last: '1'
-  _wp_old_slug: developing-asp-net-web-applications-in-iis
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

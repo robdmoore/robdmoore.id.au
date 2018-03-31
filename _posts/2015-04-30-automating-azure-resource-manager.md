@@ -3,10 +3,6 @@ layout: post
 title: Automating Azure Resource Manager
 date: 2015-04-30 19:07:18.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -14,15 +10,7 @@ tags:
 - dev ops
 - powershell
 - Windows Azure
-meta:
-  _edit_last: '1'
-  _syntaxhighlighter_encoded: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

@@ -3,10 +3,6 @@ layout: post
 title: My stance on Azure Worker Roles
 date: 2014-07-22 15:11:00.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -14,14 +10,7 @@ tags:
 - dev ops
 - MSDeploy
 - Windows Azure
-meta:
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

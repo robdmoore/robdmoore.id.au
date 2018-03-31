@@ -3,10 +3,6 @@ layout: post
 title: On myself and FluentMVCTesting joining TestStack
 date: 2012-12-31 14:14:51.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - General
 - Technical
@@ -16,14 +12,7 @@ tags:
 - NuGet
 - tech evangelism
 - testing
-meta:
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

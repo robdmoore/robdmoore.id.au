@@ -3,25 +3,13 @@ layout: post
 title: Testing AngularJS directives using Approval Tests
 date: 2015-04-22 23:00:37.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
 - AngularJS
 - JavaScript
 - testing
-meta:
-  _oembed_a1048b7a0c455aa7c8dc1de973ae8cc2: "{{unknown}}"
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 I recently had an application I was developing using AngularJS that contained a fair number of directives that were somewhat complex in that the logic that backed them was contained in services that called HTTP APIs. The intent was to provide a single JavaScript file that designers at the company I was working at could include and then build product pages using just HTML (via the directives). I needed to provide some confidence when making changes to the directives and pin down the behaviour.

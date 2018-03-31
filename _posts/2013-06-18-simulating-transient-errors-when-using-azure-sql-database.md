@@ -3,10 +3,6 @@ layout: post
 title: Simulating transient errors when using Azure SQL Database
 date: 2013-06-18 00:58:56.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -14,14 +10,7 @@ tags:
 - NHibernate
 - sql
 - Windows Azure
-meta:
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

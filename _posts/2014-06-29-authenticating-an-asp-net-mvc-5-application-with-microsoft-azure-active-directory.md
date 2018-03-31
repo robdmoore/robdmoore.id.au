@@ -3,25 +3,13 @@ layout: post
 title: Authenticating an ASP.NET MVC 5 application with Microsoft Azure Active Directory
 date: 2014-06-29 22:20:44.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
 - ASP.NET MVC
 - C#
 - Windows Azure
-meta:
-  _edit_last: '1'
-  _syntaxhighlighter_encoded: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

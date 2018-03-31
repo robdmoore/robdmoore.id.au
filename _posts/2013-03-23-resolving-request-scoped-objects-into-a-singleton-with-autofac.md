@@ -3,10 +3,6 @@ layout: post
 title: Resolving request-scoped objects into a singleton with Autofac
 date: 2013-03-23 13:21:57.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -16,15 +12,7 @@ tags:
 - testing
 - unobtrusive coding
 - validation
-meta:
-  _edit_last: '1'
-  _syntaxhighlighter_encoded: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

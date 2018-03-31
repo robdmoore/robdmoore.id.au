@@ -3,10 +3,6 @@ layout: post
 title: Announcing AzureWebFarm.OctopusDeploy
 date: 2014-01-05 21:47:00.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -15,14 +11,7 @@ tags:
 - NuGet
 - powershell
 - Windows Azure
-meta:
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

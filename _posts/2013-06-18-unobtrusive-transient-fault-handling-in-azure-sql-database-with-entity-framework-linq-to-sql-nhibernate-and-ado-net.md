@@ -4,10 +4,6 @@ title: Unobtrusive transient fault handling in Azure SQL Database with Entity Fr
   Linq To Sql, NHibernate and ADO.NET
 date: 2013-06-18 01:17:44.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -17,14 +13,7 @@ tags:
 - sql
 - unobtrusive coding
 - Windows Azure
-meta:
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

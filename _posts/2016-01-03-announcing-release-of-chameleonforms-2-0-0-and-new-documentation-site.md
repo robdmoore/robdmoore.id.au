@@ -3,10 +3,6 @@ layout: post
 title: Announcing release of ChameleonForms 2.0.0 and new documentation site
 date: 2016-01-03 13:12:06.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -15,15 +11,7 @@ tags:
 - HTML
 - JavaScript
 - tech evangelism
-meta:
-  _edit_last: '1'
-  xyz_lnap: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

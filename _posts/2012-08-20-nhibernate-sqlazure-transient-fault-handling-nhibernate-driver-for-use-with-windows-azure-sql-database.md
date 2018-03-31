@@ -4,10 +4,6 @@ title: 'NHibernate.SqlAzure: Transient fault-handling NHibernate driver for use 
   Windows Azure SQL Database'
 date: 2012-08-20 07:48:45.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -15,14 +11,7 @@ tags:
 - NHibernate
 - sql
 - Windows Azure
-meta:
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

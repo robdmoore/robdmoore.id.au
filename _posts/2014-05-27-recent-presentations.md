@@ -3,10 +3,6 @@ layout: post
 title: Recent presentations
 date: 2014-05-27 20:43:45.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -15,14 +11,7 @@ tags:
 - lean
 - Software Engineering
 - tech evangelism
-meta:
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

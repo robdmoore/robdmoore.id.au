@@ -3,10 +3,6 @@ layout: post
 title: Azure Resource Manager intro presentation and workshop
 date: 2015-05-06 17:32:59.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - General
 - Technical
@@ -14,16 +10,7 @@ tags:
 - dev ops
 - tech evangelism
 - Windows Azure
-meta:
-  _edit_last: '1'
-  _oembed_54fc994e50a7e611281dbbcf72c9d35d: "{{unknown}}"
-  _oembed_ef17fe1bf064cc23f6f32925af015c9a: "{{unknown}}"
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

@@ -3,10 +3,6 @@ layout: post
 title: Web application testing
 date: 2011-03-12 14:10:06.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -16,15 +12,7 @@ tags:
 - JavaScript
 - mocking
 - testing
-meta:
-  _wp_old_slug: web-application-testin
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

@@ -3,26 +3,13 @@ layout: post
 title: Simulating Tag Syntax with Razor Templating
 date: 2011-03-01 01:14:56.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
 - ASP.NET MVC
 - ColdFusion
 - razor
-meta:
-  _edit_last: '1'
-  _syntaxhighlighter_encoded: '1'
-  _wp_old_slug: ''
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

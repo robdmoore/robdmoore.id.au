@@ -3,10 +3,6 @@ layout: post
 title: 'NQUnit: JavaScript testing within .NET / CI'
 date: 2011-03-13 12:54:49.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -17,15 +13,7 @@ tags:
 - QUnit
 - ReSharper
 - testing
-meta:
-  _edit_last: '1'
-  _syntaxhighlighter_encoded: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

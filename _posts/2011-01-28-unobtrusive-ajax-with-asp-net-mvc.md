@@ -3,10 +3,6 @@ layout: post
 title: Unobtrusive AJAX with ASP.NET MVC
 date: 2011-01-28 00:18:44.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -16,16 +12,7 @@ tags:
 - JavaScript
 - jQuery
 - unobtrusive coding
-meta:
-  _edit_last: '1'
-  _syntaxhighlighter_encoded: '1'
-  _wp_old_slug: ''
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

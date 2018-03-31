@@ -3,24 +3,13 @@ layout: post
 title: 'Whitepaper: Managing Database Schemas in a Continuous Delivery World'
 date: 2015-02-17 11:40:42.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
 - continuous delivery
 - sql
 - tech evangelism
-meta:
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

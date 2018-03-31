@@ -3,10 +3,6 @@ layout: post
 title: Test Harness for NuGet install PowerShell scripts (init.ps1, install.ps1, uninstall.ps1)
 date: 2013-08-07 21:27:03.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -14,14 +10,7 @@ tags:
 - NuGet
 - powershell
 - testing
-meta:
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 

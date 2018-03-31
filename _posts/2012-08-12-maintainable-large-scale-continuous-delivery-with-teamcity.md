@@ -3,10 +3,6 @@ layout: post
 title: Maintainable, large-scale continuous delivery with TeamCity Blog Series
 date: 2012-08-12 00:13:06.000000000 +08:00
 type: post
-parent_id: '0'
-published: true
-password: ''
-status: publish
 categories:
 - Technical
 tags:
@@ -16,14 +12,7 @@ tags:
 - MSDeploy
 - powershell
 - TeamCity
-meta:
-  _edit_last: '1'
-author:
-  login: rob
-  email: robertmooreweb@gmail.com
-  display_name: rob
-  first_name: Rob
-  last_name: Moore
+author: rob
 ---
 
 
