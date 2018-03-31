@@ -1,14 +1,26 @@
 ---
-id: 5211
-title: Announcing the release of TestStack.Dossier 3.0
-date: 2015-05-17T15:58:29+00:00
-author: rob
 layout: post
-guid: http://robdmoore.id.au/?p=5211
-permalink: /blog/2015/05/17/announcing-the-release-of-teststack-dossier-3-0/
+title: Announcing the release of TestStack.Dossier 3.0
+date: 2015-05-17 15:58:29.000000000 +08:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
 categories:
-  - Technical
+- Technical
 tags:
-  - testing
+- testing
+meta:
+  _edit_last: '1'
+author:
+  login: rob
+  email: robertmooreweb@gmail.com
+  display_name: rob
+  first_name: Rob
+  last_name: Moore
 ---
-I&#8217;ve added a blog post on the TestStack blog <a href="http://www.teststack.net/v1.0/blog/announcing-teststackdossier-v30" target="_blank">announcing the release of v3.0 of Dossier</a>.
+
+
+I've added a blog post on the TestStack blog [announcing the release of v3.0 of Dossier](http://www.teststack.net/v1.0/blog/announcing-teststackdossier-v30).
+
