@@ -11,6 +11,9 @@ description: 'Blog about software engineering, web development, agile/lean/Conti
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: robdmoore
 github_username:  robdmoore
+linkedin_username: robdmoore1
+stackoverflow_username: 1445713
+bitbucket_username: robdmoore
 permalink: /blog/:year/:month/:day/:title
 paginate: 5  # amount of posts to show per page
 paginate_path: /blog/p:num/
