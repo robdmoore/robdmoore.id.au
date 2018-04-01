@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/robdmoore
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://robdmoore.id.au
+  * I am robdmoore (https://keybase.io/robdmoore) on keybase.
+  * I have a public key with fingerprint 7EC9 85C2 A5C2 4121 3EFB  4258 4730 FEAF BA2E 9A78
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "7ec985c2a5c241213efb42584730feafba2e9a78",
+            "host": "keybase.io",
+            "key_id": "4730feafba2e9a78",
+            "kid": "0101cb44feec5423c646702bb629328fd67fdf8b44e9874d553d1177d25efe20fdd20a",
+            "uid": "0a015e8090d02a9f1a544e2b323d9c19",
+            "username": "robdmoore"
+        },
+        "service": {
+            "hostname": "robdmoore.id.au",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1432814171,
+    "expire_in": 157680000,
+    "prev": "bcbb9f740307918cf1732f902fa32c7b02d5876d63342c8ab530b3acab0b8e6d",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMIbAnicbZJZaFNBFIaTmm4RjbigDyp4EaU2pDNz9yCIiLjggyAV26px5s7ceE2T
+G2+SalsjivoiausubkVqXREsogWV4lKQqlirdamo4PpQW7QU3MBlrsuLODAMc873
+/zPncNqGDPL4vZu2B4oaugKrvbeuzsx4SqM5FbUCsWm1EK4VYuzXYVqJKHOSjpVI
+C2FBZYauyQbCfEsQQZGZREKyJqkiMBk2CUZMx6omBIXldspVcBuCUyxk2TzGLxGL
+8uh/+NivBIAAGkSSTMYMWUKioUiKChAhCtJFpJlUUU1qapxguqZKVJZFCqGqUiQz
+kyFgUooA5naZ33YYQJlpQAcUIKybEMtciYiIRKobUHfBFHMSOM447diExm3bYUI2
+KPBwlWUwtwduKf8iIYuGcIbrk46dtg27kieXp9PJVNgVp6uTLr2KkcgfnwixEpT3
+kiuqmJOy7IQQhpw00pZrDCVeHZSgCoMCW520HBaxXEJWFQ3w5b7DqrglMQjRTVUC
+IlB1qBkmVEVk6gCZWESGSgCisqYqVBFFCRkaJrIIiIgNTADRmEIFt7KVCVsIi/yb
+OMotU1Y0gdMZt+xrVxb7PF6/Jy83x50Gj79w2N8ZiX7L/14UrXt4r35JBWrtu5B7
+bHDL2NN7h77zbFjaV3LvY4F3yYdpwwOjtUzlxtbzDVAi0xc0nWoG2wZNWFcSz59U
+HBjpa5xe3u9b/LR14NzFIw/g4cc1hXVtA0o7yr7oNHqVV8UL53V0b5vzZhitq/56
+IvO+Y+OUzvqu7lkr2sM9h569Pfmt0NqxPlQT71nTIm3ec7fi/NpR/uyi8kuVe4tn
+jD/wen7g5aqd7Oa+3qtNZCBysKV08pPNvUdjqXTFvhvBKdau2ttlzz83n4k1l+we
+X5p7vH/OlU0XIvs/vXnSuOzyHqdsat4GX/7sHyOub9Xun83mdcqP+uXMyDVzxYmH
+xhTMH/dly536n8GKKO0=
+=TAUH
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/robdmoore
+
+==================================================================
