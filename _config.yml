@@ -14,6 +14,7 @@ github_username:  robdmoore
 linkedin_username: robdmoore1
 stackoverflow_username: 1445713
 bitbucket_username: robdmoore
+keybase_username: robdmoore
 permalink: /blog/:year/:month/:day/:title
 paginate: 5  # amount of posts to show per page
 paginate_path: /blog/p:num/

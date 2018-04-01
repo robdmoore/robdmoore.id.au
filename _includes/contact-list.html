@@ -28,6 +28,10 @@
     <li>{% include icon-bitbucket.html username=site.bitbucket_username label='Bitbucket' %}</li>
   {% endif %}
 
+  {% if site.keybase_username %}
+    <li>{% include icon-keybase.html username=site.keybase_username label='Keybase' %}</li>
+  {% endif %}
+
   <li>
     {% if site.plugins contains 'jekyll-feed' or site.gems contains 'jekyll-feed' %}
       <a href="https://feeds.feedburner.com/robdmoore" target="_blank" title="Atom Feed">
