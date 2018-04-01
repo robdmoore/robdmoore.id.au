@@ -27,6 +27,7 @@ disqus:
 google_analytics: UA-202420-2
 
 # Build settings
+include: [ /sensoros ]
 excerpt_separator: "<!--more-->"
 markdown: kramdown
 theme: jekyll-theme-basically-basic

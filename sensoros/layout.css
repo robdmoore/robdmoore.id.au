@@ -1,0 +1,111 @@
+body {
+	background: #3c3c3c url("bg.gif") repeat-x;
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+	font-size: 0.8em;
+	font-family: "trebuchet ms", verdana, sans-serif;
+	min-width: 600px;
+}
+
+pre {
+	font-size: 1.2em;
+}
+
+#fullwrapper {
+	background: url("fullwrapperbg.gif") repeat-y;
+	float: right;
+	width: 500px;
+	margin-right: 100px;
+}
+
+#header {
+	height: 120px;
+	color: #272727;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	height: 70px;
+	width: 500px;
+	line-height: 70px;
+	text-indent: -3000px;
+	background: url("header.gif") no-repeat;
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+	height: 50px;
+	width: 500px;
+	line-height: 50px;
+	text-indent: -3000px;
+	background: url("subheader.gif") no-repeat;
+}
+
+#content, #footer {
+	margin: 0 7px;
+	padding: 15px;
+}
+
+h3 {
+	font-family: "century gothic", verdana, sans-serif;
+	font-weight: normal;
+	margin: 1.2em 0;
+	padding: 0.2em 0;
+	font-size: 1.6em;
+	border-bottom: 1px solid #a6ce39;
+	color: #a6ce39;
+}
+
+h4 {
+	font-size: 1.1em;
+}
+
+h5 {
+	font-weight: bold;
+}
+
+p, h5 {
+	font-size: 1.0em;
+	line-height: 1.3em;
+	margin: 1.2em 0.5em;
+	padding: 0;
+}
+li p {
+	margin-top: 0;
+}
+
+#content a:link, #content a:visited, #content a:active {
+	color: #a6ce39;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+#footer {
+	font-size: 0.8em;
+	text-align: right;
+	margin: 30px 5px 0 5px;
+	padding: 0 15px 20px 15px;
+	color: #757575;
+	font-family: "century gothic", sans-serif;
+}
+
+#footer a:link, #footer a:visited, #footer a:active {
+	color: #757575;
+}
+
+ul {
+	list-style-image: url("bullet.gif");
+}
+
+ul ul {
+	list-style-image: url("bullet2.gif");
+}
+
+.print-only {
+	display: none;
+}
