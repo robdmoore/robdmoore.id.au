@@ -24,8 +24,6 @@ search_provider: lunr
 disqus:
   shortname: robdmoore-id-au
 google_analytics: UA-202420-2
-feed:
-  path: /feed/index.xml
 
 # Build settings
 excerpt_separator: "<!--more-->"
